@@ -32,7 +32,7 @@ At present, I am engaged in constructing modular, real-time trading infrastructu
   <a href="/projects/" class="btn">View Projects</a>
   <a href="/publications/" class="btn">Publications</a>
   <a href="/blog/" class="btn">Blog</a>
-  <a href="/pages/cv/" class="btn">CV</a>
+  <a href="/cv/" class="btn">CV</a>
 </div>
 
 <style>
