@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "CV"
-permalink: /cv/
+layout: page
+title: CV
 ---
 
 # Curriculum Vitae

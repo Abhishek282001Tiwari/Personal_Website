@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Contact"
-permalink: /contact/
+layout: page
+title: Contact
 ---
 
 # Get In Touch

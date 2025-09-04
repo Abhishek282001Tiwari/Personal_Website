@@ -12,16 +12,6 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-# Include _pages directory for processing
-include: ['_pages']
-
-# Page defaults
-defaults:
-  - scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: "default"
 
 # Collections
 collections:
