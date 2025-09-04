@@ -126,14 +126,14 @@
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Example strategy integration
 </span><span class="k">class</span> <span class="nc">MomentumStrategy</span><span class="p">(</span><span class="n">BaseStrategy</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">alpha_model</span> <span class="o">=</span> <span class="nc">LLMAlphaGenerator</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">risk_manager</span> <span class="o">=</span> <span class="nc">RealTimeRiskManager</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">alpha_model</span> <span class="o">=</span> <span class="n">LLMAlphaGenerator</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">risk_manager</span> <span class="o">=</span> <span class="n">RealTimeRiskManager</span><span class="p">()</span>
     
-    <span class="k">def</span> <span class="nf">on_market_data</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="n">signals</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">alpha_model</span><span class="p">.</span><span class="nf">generate_signals</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-        <span class="n">orders</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">risk_manager</span><span class="p">.</span><span class="nf">filter_orders</span><span class="p">(</span><span class="n">signals</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="nf">execute_orders</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">on_market_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="n">signals</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">alpha_model</span><span class="p">.</span><span class="n">generate_signals</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">orders</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">risk_manager</span><span class="p">.</span><span class="n">filter_orders</span><span class="p">(</span><span class="n">signals</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">execute_orders</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h3 id="architecture-overview">Architecture Overview</h3>

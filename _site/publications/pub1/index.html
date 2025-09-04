@@ -135,15 +135,15 @@
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Framework overview
 </span><span class="k">class</span> <span class="nc">NeurosymbolicFramework</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">neural_module</span> <span class="o">=</span> <span class="nc">TransformerEncoder</span><span class="p">()</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">symbolic_module</span> <span class="o">=</span> <span class="nc">RuleEngine</span><span class="p">()</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">integration</span> <span class="o">=</span> <span class="nc">AttentionFusion</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">neural_module</span> <span class="o">=</span> <span class="n">TransformerEncoder</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">symbolic_module</span> <span class="o">=</span> <span class="n">RuleEngine</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">integration</span> <span class="o">=</span> <span class="n">AttentionFusion</span><span class="p">()</span>
     
-    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">market_data</span><span class="p">):</span>
-        <span class="n">neural_features</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">neural_module</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
-        <span class="n">symbolic_rules</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">symbolic_module</span><span class="p">.</span><span class="nf">apply_rules</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">integration</span><span class="p">(</span><span class="n">neural_features</span><span class="p">,</span> <span class="n">symbolic_rules</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">market_data</span><span class="p">):</span>
+        <span class="n">neural_features</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">neural_module</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
+        <span class="n">symbolic_rules</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">symbolic_module</span><span class="p">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">integration</span><span class="p">(</span><span class="n">neural_features</span><span class="p">,</span> <span class="n">symbolic_rules</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="experimental-setup">Experimental Setup</h2>
@@ -278,15 +278,15 @@ layout: default
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Framework overview
 </span><span class="k">class</span> <span class="nc">NeurosymbolicFramework</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">neural_module</span> <span class="o">=</span> <span class="nc">TransformerEncoder</span><span class="p">()</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">symbolic_module</span> <span class="o">=</span> <span class="nc">RuleEngine</span><span class="p">()</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">integration</span> <span class="o">=</span> <span class="nc">AttentionFusion</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">neural_module</span> <span class="o">=</span> <span class="n">TransformerEncoder</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">symbolic_module</span> <span class="o">=</span> <span class="n">RuleEngine</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">integration</span> <span class="o">=</span> <span class="n">AttentionFusion</span><span class="p">()</span>
     
-    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">market_data</span><span class="p">):</span>
-        <span class="n">neural_features</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">neural_module</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
-        <span class="n">symbolic_rules</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">symbolic_module</span><span class="p">.</span><span class="nf">apply_rules</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">integration</span><span class="p">(</span><span class="n">neural_features</span><span class="p">,</span> <span class="n">symbolic_rules</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">market_data</span><span class="p">):</span>
+        <span class="n">neural_features</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">neural_module</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
+        <span class="n">symbolic_rules</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">symbolic_module</span><span class="p">.</span><span class="n">apply_rules</span><span class="p">(</span><span class="n">market_data</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">integration</span><span class="p">(</span><span class="n">neural_features</span><span class="p">,</span> <span class="n">symbolic_rules</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="experimental-setup">Experimental Setup</h2>
