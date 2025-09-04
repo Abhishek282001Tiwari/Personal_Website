@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: CV
 permalink: /cv/
 ---
@@ -75,5 +75,3 @@ Co-authored with Prof. John Smith, Stanford University
 - Institute for Operations Research and Management Sciences (INFORMS)
 - Society for Industrial and Applied Mathematics (SIAM)
 - CFA Institute (Level II Candidate)
-
----

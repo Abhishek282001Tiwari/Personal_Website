@@ -67,5 +67,3 @@ Thoughts on operations research, machine learning, quantitative finance, and the
 ## Subscribe
 
 Want to stay updated? Follow me on [Twitter](https://twitter.com/yourtwitter) for the latest posts and research updates, or connect on [LinkedIn](https://linkedin.com/in/yourlinkedin) for professional discussions.
-
----

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Contact
 permalink: /contact/
 ---
@@ -18,7 +18,7 @@ I'm always interested in discussing research collaborations, interesting problem
 
 ## Contact Methods
 
-📧 **Email**: your.email@example.com *(Best for detailed discussions)*  
+📧 **Email**: Abhishekt282001@gmail.com *(Best for detailed discussions)*  
 💼 **LinkedIn**: [linkedin.com/in/yourlinkedin](https://linkedin.com/in/yourlinkedin) *(Professional networking)*  
 🐦 **Twitter**: [@yourtwitter](https://twitter.com/yourtwitter) *(Quick questions and industry discussion)*  
 
@@ -35,5 +35,3 @@ Currently most excited about:
 I typically respond to emails within 24-48 hours on weekdays. For urgent matters, LinkedIn messages usually get a quicker response.
 
 Looking forward to hearing from you!
-
----
