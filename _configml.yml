@@ -1,0 +1,38 @@
+# _config.yml
+title: "Abhishek Tiwari"
+description: "Quantitative Finance• Machine Learning • Operations Research"
+baseurl: ""
+url: "https://Abhishek282001Tiwari.github.io"
+author: "Abhishek Tiwari"
+email: "Abhishekt282001@gmail.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  publications:
+    output: true
+    permalink: /:collection/:name/
+
+# Social links (for footer)
+github_username: Abhishek282001Tiwari
+linkedin_username: yourlinkedin
+twitter_username: yourtwitter
+kaggle_username: yourkaggle
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
