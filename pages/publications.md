@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+permalink: /publications/
 ---
 
 # Publications
@@ -73,4 +74,4 @@ Research at the intersection of operations research, machine learning, and quant
 
 ---
 
-*For collaboration inquiries or access to preprints, please [contact me](/contact/).*
+*For collaboration inquiries or access to preprints, please [contact me](/pages/contact/).*

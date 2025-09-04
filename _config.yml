@@ -12,6 +12,9 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
+# Include pages directory
+include: ['pages']
+
 
 # Collections
 collections:

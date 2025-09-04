@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+permalink: /projects/
 ---
 
 # Projects
@@ -68,4 +69,4 @@ I actively contribute to open source projects in the quantitative finance and op
 
 ---
 
-*Interested in collaboration? Feel free to [reach out](/contact/) to discuss potential projects or research opportunities.*
+*Interested in collaboration? Feel free to [reach out](/pages/contact/) to discuss potential projects or research opportunities.*
