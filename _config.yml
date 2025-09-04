@@ -1,7 +1,9 @@
 title: "Abhishek Tiwari"
-description: "Quantitative Finance• Machine Learning • Operations Research"
+description: "Quantitative Finance • Machine Learning • Operations Research"
+# For root domain (username.github.io): baseurl should be empty ""
+# For subdirectory (username.github.io/repo-name): baseurl should be "/repo-name"
 baseurl: ""
-url: "https://Abhishek282001Tiwari.github.io"
+url: "https://abhishek282001tiwari.github.io"
 author: "Abhishek Tiwari"
 email: "Abhishekt282001@gmail.com"
 
@@ -9,6 +11,9 @@ email: "Abhishekt282001@gmail.com"
 markdown: kramdown
 highlighter: rouge
 theme: minima
+
+# Include _pages directory for processing
+include: ['_pages']
 
 # Collections
 collections:
@@ -25,9 +30,16 @@ linkedin_username: yourlinkedin
 twitter_username: yourtwitter
 kaggle_username: yourkaggle
 
-# Pagination
+# Pagination for blog
 paginate: 5
 paginate_path: "/blog/page:num/"
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing
 exclude:
