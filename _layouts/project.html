@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="project-detail">
+    <header style="margin-bottom: 2rem;">
+        <h1>{{ page.title }}</h1>
+        <p style="font-size: 1.2rem; color: #666; margin-bottom: 1rem;">{{ page.description }}</p>
+        
+        {% if page.technologies %}
+        <div style="margin: 1rem 0;">
+            {% for tech in page.technologies %}
+            <span style="display: inline-block; background: #f1f3f4; padding: 0.3rem 0.6rem; margin: 0.2rem; border-radius: 4px; font-size: 0.9rem;">{{ tech }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div style="margin: 1rem 0;">
+            {% if page.github %}
+            <a href="{{ page.github }}" class="btn">View Code</a>
+            {% endif %}
+            {% if page.demo %}
+            <a href="{{ page.demo }}" class="btn">Live Demo</a>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="project-content">
+        {{ content }}
+    </div>
+
+    <nav style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e8e8e8;">
+        <a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects</a>
+    </nav>
+</article>
+
+---
