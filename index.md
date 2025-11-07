@@ -1,4 +1,3 @@
-cat > index.md << 'EOF'
 ---
 layout: default
 title: Home
@@ -122,5 +121,4 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         }
     }
 </style>
-EOF
 ---
