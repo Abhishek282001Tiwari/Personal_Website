@@ -1,4 +1,3 @@
-# Create the new index.md file with the updated content
 cat > index.md << 'EOF'
 ---
 layout: default
@@ -22,11 +21,11 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
 
 ## Research Interests
 
-- **Neuro-Symbolic Integration:** Architectures that combine neural networks with symbolic reasoning, knowledge graphs, and logical constraints
-- **Interpretable AI:** Methods for making complex models transparent and explainable, particularly in high-stakes domains
-- **Knowledge Representation & Reasoning:** Integrating structured knowledge with neural learning for improved generalization
-- **AI Safety & Robustness:** Developing systems that are reliable, trustworthy, and aligned with human values
-- **Reasoning under Uncertainty:** Probabilistic approaches to symbolic reasoning and neural-symbolic integration
+**Neuro-Symbolic Integration:** Architectures that combine neural networks with symbolic reasoning, knowledge graphs, and logical constraints
+**Interpretable AI:** Methods for making complex models transparent and explainable, particularly in high-stakes domains
+**Knowledge Representation & Reasoning:** Integrating structured knowledge with neural learning for improved generalization
+**AI Safety & Robustness:** Developing systems that are reliable, trustworthy, and aligned with human values
+**Reasoning under Uncertainty:** Probabilistic approaches to symbolic reasoning and neural-symbolic integration
 
 ## Recent Highlights
 
@@ -34,13 +33,6 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
 - Investigating neural-symbolic approaches for commonsense reasoning in language models
 - Exploring methods for extracting symbolic rules from trained neural networks
 - Building hybrid architectures for complex decision-making tasks requiring both perception and reasoning
-
-<div class="btn-container">
-    <a href="/Personal_Website/research/" class="btn">Research</a>
-    <a href="/Personal_Website/publications/" class="btn">Publications</a>
-    <a href="/Personal_Website/projects/" class="btn">Projects</a>
-    <a href="/Personal_Website/cv/" class="btn">CV</a>
-</div>
 
 <style>
     /* Minimal Black & White Theme */
@@ -92,10 +84,6 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         line-height: 1.6;
     }
 
-    .content-section {
-        margin-bottom: 3rem;
-    }
-
     h2 {
         font-size: 1.5rem;
         font-weight: 600;
@@ -124,36 +112,6 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         color: var(--gray-medium);
     }
 
-    .btn-container {
-        text-align: center;
-        margin: 3rem 0;
-        padding: 2rem 0;
-        border-top: 1px solid var(--border);
-        border-bottom: 1px solid var(--border);
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 0.8rem 1.8rem;
-        margin: 0 0.5rem 1rem 0.5rem;
-        background: var(--white);
-        color: var(--black);
-        text-decoration: none;
-        border: 1px solid var(--black);
-        border-radius: 2px;
-        font-weight: 500;
-        font-size: 0.95rem;
-        transition: all 0.2s ease;
-        cursor: pointer;
-    }
-
-    .btn:hover {
-        background: var(--black);
-        color: var(--white);
-        text-decoration: none;
-    }
-
-    /* Responsive Design */
     @media (max-width: 768px) {
         .hero-section h1 {
             font-size: 2rem;
@@ -161,12 +119,6 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         
         .tagline {
             font-size: 1.1rem;
-        }
-        
-        .btn {
-            display: block;
-            margin: 0.5rem auto;
-            width: 200px;
         }
     }
 </style>

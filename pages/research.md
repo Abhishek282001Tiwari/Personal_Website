@@ -1,4 +1,4 @@
-cat > research.md << 'EOF'
+cat > pages/research.md << 'EOF'
 ---
 layout: page
 title: Research
