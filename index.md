@@ -20,11 +20,11 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
 
 ## Research Interests
 
-**Neuro-Symbolic Integration:** Architectures that combine neural networks with symbolic reasoning, knowledge graphs, and logical constraints
-**Interpretable AI:** Methods for making complex models transparent and explainable, particularly in high-stakes domains
-**Knowledge Representation & Reasoning:** Integrating structured knowledge with neural learning for improved generalization
-**AI Safety & Robustness:** Developing systems that are reliable, trustworthy, and aligned with human values
-**Reasoning under Uncertainty:** Probabilistic approaches to symbolic reasoning and neural-symbolic integration
+- **Neuro-Symbolic Integration:** Architectures that combine neural networks with symbolic reasoning, knowledge graphs, and logical constraints
+- **Interpretable AI:** Methods for making complex models transparent and explainable, particularly in high-stakes domains
+- **Knowledge Representation & Reasoning:** Integrating structured knowledge with neural learning for improved generalization
+- **AI Safety & Robustness:** Developing systems that are reliable, trustworthy, and aligned with human values
+- **Reasoning under Uncertainty:** Probabilistic approaches to symbolic reasoning and neural-symbolic integration
 
 ## Recent Highlights
 
