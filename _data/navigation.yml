@@ -1,7 +1,3 @@
-# Create _data directory if it doesn't exist
-mkdir -p _data
-
-# Create navigation.yml
 cat > _data/navigation.yml << 'EOF'
 - name: "Home"
   link: "/"
