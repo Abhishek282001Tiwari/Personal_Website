@@ -34,20 +34,10 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
 - Building hybrid architectures for complex decision-making tasks requiring both perception and reasoning
 
 <style>
-    /* Minimal Black & White Theme */
-    :root {
-        --black: #000000;
-        --white: #ffffff;
-        --gray-dark: #333333;
-        --gray-medium: #666666;
-        --gray-light: #f5f5f5;
-        --border: #e0e0e0;
-    }
-    
     .hero-section {
         text-align: center;
         padding: 4rem 0 3rem 0;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid #e8e8e8;
         margin-bottom: 3rem;
     }
 
@@ -57,27 +47,27 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         height: 160px;
         object-fit: cover;
         margin-bottom: 1.5rem;
-        border: 3px solid var(--border);
+        border: 3px solid #e8e8e8;
     }
 
     .hero-section h1 {
         font-size: 2.5rem;
         font-weight: 700;
-        color: var(--black);
+        color: #000;
         margin-bottom: 0.5rem;
         letter-spacing: -1px;
     }
 
     .tagline {
         font-size: 1.3rem;
-        color: var(--gray-medium);
+        color: #666;
         margin-bottom: 1rem;
         font-weight: 400;
     }
 
     .research-focus {
         font-size: 1.1rem;
-        color: var(--gray-dark);
+        color: #333;
         max-width: 600px;
         margin: 0 auto;
         line-height: 1.6;
@@ -86,10 +76,10 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
     h2 {
         font-size: 1.5rem;
         font-weight: 600;
-        color: var(--black);
+        color: #000;
         margin-bottom: 1.5rem;
         padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid #e8e8e8;
     }
 
     ul {
@@ -101,14 +91,14 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         margin-bottom: 0.8rem;
         padding-left: 1.5rem;
         position: relative;
-        color: var(--gray-dark);
+        color: #333;
     }
 
     li:before {
         content: "—";
         position: absolute;
         left: 0;
-        color: var(--gray-medium);
+        color: #666;
     }
 
     @media (max-width: 768px) {
@@ -121,4 +111,3 @@ Currently, I am exploring methods to enhance neural networks with symbolic knowl
         }
     }
 </style>
----

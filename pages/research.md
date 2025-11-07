@@ -1,4 +1,3 @@
-cat > pages/research.md << 'EOF'
 ---
 layout: page
 title: Research
@@ -25,4 +24,3 @@ Integrating structured knowledge with neural learning to improve generalization 
 I believe the next generation of AI systems will require a synthesis of neural and symbolic approaches—combining the pattern recognition capabilities of deep learning with the explicit reasoning and transparency of symbolic AI.
 
 *More details coming soon...*
-EOF

@@ -1,8 +1,7 @@
-cat > _data/navigation.yml << 'EOF'
 - name: "Home"
   link: "/"
 
-- name: "Research" 
+- name: "Research"
   link: "/research/"
 
 - name: "Publications"
@@ -16,4 +15,3 @@ cat > _data/navigation.yml << 'EOF'
 
 - name: "Contact"
   link: "/contact/"
-EOF
