@@ -13,10 +13,10 @@ Hands-on implementations and research prototypes exploring computational finance
 <div class="project featured">
     <div class="project-header">
         <h3>Multi-Regime Climate-Financial Risk Transmission Engine</h3>
-        <span class="project-status">Active Development</span>
+        <span class="project-status">Research Project Complete</span>
     </div>
     <div class="project-meta">
-        <span class="project-tech">Python • Streamlit • Markov Regime-Switching • Jump-Diffusion Models</span>
+        <span class="project-tech">Python • Markov Regime-Switching • Jump-Diffusion Models</span>
         <span class="project-date">2024</span>
     </div>
     <p class="project-description">
@@ -42,7 +42,6 @@ Hands-on implementations and research prototypes exploring computational finance
     </div>
     <div class="project-links">
         <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">View Code</a>
-        <a href="https://multi-regime-climate-financial-risk-transmission-engine-9f4t6w.streamlit.app/" class="project-link">Live Demo</a>
         <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">Documentation</a>
     </div>
 </div>
@@ -50,7 +49,7 @@ Hands-on implementations and research prototypes exploring computational finance
 <div class="project featured">
     <div class="project-header">
         <h3>Optimal Execution under Self-Exciting Order Flow</h3>
-        <span class="project-status">Research Complete</span>
+        <span class="project-status">Research Project Complete</span>
     </div>
     <div class="project-meta">
         <span class="project-tech">Python • Hawkes Processes • Stochastic Control • Jupyter</span>
@@ -84,6 +83,43 @@ Hands-on implementations and research prototypes exploring computational finance
 </div>
 
 ## Research Tools & Libraries
+
+<div class="project library">
+    <div class="project-header">
+        <h3>NeuroLogicX Terminal Interface</h3>
+        <span class="project-status">Open Source</span>
+    </div>
+    <div class="project-meta">
+        <span class="project-tech">Python • Streamlit • Web Development • UI/UX</span>
+        <span class="project-date">2024</span>
+    </div>
+    <p class="project-description">
+        A minimalist terminal-style web interface built with Streamlit, featuring a pure black background and Cambria font for a clean code editor experience. Designed as a demonstration interface for neuro-symbolic AI systems with command history and interactive features.
+    </p>
+    <div class="project-features">
+        <h4>Key Features:</h4>
+        <ul>
+            <li>Pure black background with white Cambria font for optimal readability</li>
+            <li>Terminal-style command interface with command history support</li>
+            <li>Multi-line input support for code and text processing</li>
+            <li>Built-in commands: help, clear, date, info, echo with extensible architecture</li>
+            <li>Minimalist design - no emojis, icons, or unnecessary UI elements</li>
+        </ul>
+    </div>
+    <div class="project-results">
+        <h4>Technical Implementation:</h4>
+        <ul>
+            <li>Custom CSS styling for authentic terminal appearance</li>
+            <li>Streamlit session state management for persistent command history</li>
+            <li>Responsive design compatible with desktop and mobile browsers</li>
+            <li>Easy deployment via Streamlit Cloud with live demo capabilities</li>
+        </ul>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">View Code</a>
+        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">Documentation</a>
+    </div>
+</div>
 
 <div class="project library">
     <div class="project-header">
