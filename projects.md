@@ -42,7 +42,7 @@ Hands-on implementations and research prototypes exploring computational finance
     </div>
     <div class="project-links">
         <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">View Code</a>
-        <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">Documentation</a>
+        <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine/blob/main/README.md" class="project-link">Documentation</a>
     </div>
 </div>
 
@@ -78,7 +78,7 @@ Hands-on implementations and research prototypes exploring computational finance
     </div>
     <div class="project-links">
         <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">View Code</a>
-        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">Documentation</a>
+        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes/blob/main/README.md" class="project-link">Documentation</a>
     </div>
 </div>
 
@@ -116,9 +116,10 @@ Hands-on implementations and research prototypes exploring computational finance
         </ul>
     </div>
     <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">View Code</a>
-        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">Documentation</a>
-    </div>
+    <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">View Code</a>
+    <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal/blob/main/README.md" class="project-link">Documentation</a>
+    <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="project-link">Paper DOI</a>
+</div>
 </div>
 
 <div class="project library">
