@@ -8,17 +8,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Simple navigation - now pointing to root files
+# Simple navigation - CV removed since it's on homepage
 nav:
   - name: "About"
     url: "/"
   - name: "Research"
-    url: "/research.html"
+    url: "/research/"
   - name: "Publications"
-    url: "/publications.html"
+    url: "/publications/"
   - name: "Projects"
-    url: "/projects.html"
-  - name: "CV"
-    url: "/cv.html"
+    url: "/projects/"
   - name: "Blog"
-    url: "/blog.html"
+    url: "/blog/"

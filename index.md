@@ -1,4 +1,3 @@
-cat > index.md << 'END'
 ---
 layout: default
 title: Home
@@ -51,6 +50,32 @@ title: Home
     </ul>
 </div>
 
+<!-- NEW CV SECTION -->
+<div class="cv-section">
+    <h2>Curriculum Vitae</h2>
+    <p>View my professional background, experience, and skills. The CV is typeset in LaTeX for optimal readability.</p>
+    
+    <div class="cv-preview">
+        <div class="cv-controls">
+            <button onclick="zoomInCV()" class="cv-btn">Zoom In</button>
+            <button onclick="zoomOutCV()" class="cv-btn">Zoom Out</button>
+            <button onclick="resetZoomCV()" class="cv-btn">Reset Zoom</button>
+            <a href="/assets/cv/cv.pdf" download class="cv-btn download-btn">Download PDF</a>
+        </div>
+        
+        <div class="pdf-viewer">
+            <iframe 
+                id="cv-pdf"
+                src="/assets/cv/cv.pdf#view=FitH"
+                width="100%" 
+                height="500"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
 <div class="cta-section">
     <h2>Connect & Collaborate</h2>
     <p>I'm actively seeking PhD opportunities and research collaborations in Neuro-Symbolic AI. Let's discuss how we can advance the frontier of reasoning systems together.</p>
@@ -62,6 +87,7 @@ title: Home
 </div>
 
 <style>
+/* Existing styles from your homepage */
 .hero {
     text-align: center;
     padding: 4rem 0 3rem 0;
@@ -202,6 +228,72 @@ title: Home
     transform: translateY(-1px);
 }
 
+/* NEW CV SECTION STYLES */
+.cv-section {
+    margin: 4rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.cv-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.cv-section p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cv-preview {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cv-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cv-btn {
+    padding: 0.6rem 1.2rem;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.cv-btn:hover {
+    background: #333;
+}
+
+.download-btn {
+    background: #4caf50;
+}
+
+.download-btn:hover {
+    background: #45a049;
+}
+
+.pdf-viewer {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.2rem;
@@ -220,6 +312,53 @@ title: Home
         margin: 0.5rem auto;
         width: 200px;
     }
+    
+    .cv-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .cv-btn {
+        text-align: center;
+    }
+    
+    .pdf-viewer {
+        height: 400px;
+    }
 }
 </style>
-END
+
+<script>
+// CV Zoom Functions
+let currentZoomCV = 1;
+const zoomStepCV = 0.1;
+const minZoomCV = 0.5;
+const maxZoomCV = 3;
+
+function zoomInCV() {
+    if (currentZoomCV < maxZoomCV) {
+        currentZoomCV += zoomStepCV;
+        updateZoomCV();
+    }
+}
+
+function zoomOutCV() {
+    if (currentZoomCV > minZoomCV) {
+        currentZoomCV -= zoomStepCV;
+        updateZoomCV();
+    }
+}
+
+function resetZoomCV() {
+    currentZoomCV = 1;
+    updateZoomCV();
+}
+
+function updateZoomCV() {
+    const iframe = document.getElementById('cv-pdf');
+    iframe.style.transform = `scale(${currentZoomCV})`;
+    iframe.style.transformOrigin = 'top left';
+    iframe.style.width = `${100 / currentZoomCV}%`;
+    iframe.style.height = `${500 / currentZoomCV}px`;
+}
+</script>
