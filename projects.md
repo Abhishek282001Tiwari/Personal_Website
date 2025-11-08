@@ -1,4 +1,3 @@
-cat > projects.md << 'END'
 ---
 layout: default
 title: Projects

@@ -1,5 +1,3 @@
-# Update research.md to use proper permalink
-cat > research.md << 'END'
 ---
 layout: default
 title: Research

@@ -1,4 +1,3 @@
-cat > publications.md << 'END'
 ---
 layout: default
 title: Publications
