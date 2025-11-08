@@ -12,6 +12,43 @@ Hands-on implementations and research prototypes exploring computational finance
 
 <div class="project featured">
     <div class="project-header">
+        <h3>Multi-Regime Climate-Financial Risk Transmission Engine</h3>
+        <span class="project-status">Active Development</span>
+    </div>
+    <div class="project-meta">
+        <span class="project-tech">Python • Streamlit • Markov Regime-Switching • Jump-Diffusion Models</span>
+        <span class="project-date">2024</span>
+    </div>
+    <p class="project-description">
+        Advanced climate-financial risk engine for modeling risk transmission using regime-switching and simulation-based techniques. Implements Hamilton's (1989) Markov regime-switching model with climate extensions to analyze how climate risks propagate through financial markets.
+    </p>
+    <div class="project-features">
+        <h4>Key Features:</h4>
+        <ul>
+            <li>Implementation of Hamilton's Markov regime-switching model with climate extensions</li>
+            <li>Evidence of climate-financial transmission using 9+ years of real market data</li>
+            <li>Interactive Streamlit dashboard for real-time risk analysis and stress testing</li>
+            <li>Uses only FREE data sources, making it accessible worldwide</li>
+        </ul>
+    </div>
+    <div class="project-results">
+        <h4>Technical Achievements:</h4>
+        <ul>
+            <li>Climate-triggered jump intensity modeling using Merton (1976) framework</li>
+            <li>Multi-regime detection with climate-dependent transition probabilities</li>
+            <li>Comprehensive VaR and Expected Shortfall calculations</li>
+            <li>Production-ready framework with extensive documentation</li>
+        </ul>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">View Code</a>
+        <a href="https://multi-regime-climate-financial-risk-transmission-engine-9f4t6w.streamlit.app/" class="project-link">Live Demo</a>
+        <a href="https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine" class="project-link">Documentation</a>
+    </div>
+</div>
+
+<div class="project featured">
+    <div class="project-header">
         <h3>Optimal Execution under Self-Exciting Order Flow</h3>
         <span class="project-status">Research Complete</span>
     </div>
@@ -117,16 +154,17 @@ Hands-on implementations and research prototypes exploring computational finance
             <div class="tech-tags">
                 <span class="tech-tag">Stochastic Control</span>
                 <span class="tech-tag">Hawkes Processes</span>
-                <span class="tech-tag">Backtesting</span>
-                <span class="tech-tag">Risk Management</span>
+                <span class="tech-tag">Markov Regime-Switching</span>
+                <span class="tech-tag">Jump-Diffusion Models</span>
             </div>
         </div>
         <div class="tech-category">
-            <h4>Visualization</h4>
+            <h4>Visualization & Deployment</h4>
             <div class="tech-tags">
+                <span class="tech-tag">Streamlit</span>
                 <span class="tech-tag">Matplotlib</span>
-                <span class="tech-tag">Seaborn</span>
                 <span class="tech-tag">Plotly</span>
+                <span class="tech-tag">Seaborn</span>
             </div>
         </div>
     </div>
