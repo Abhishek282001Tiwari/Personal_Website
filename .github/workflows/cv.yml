@@ -1,0 +1,26 @@
+name: Compile LaTeX CV
+
+on:
+  push:
+    paths:
+      - 'assets/cv/cv.tex'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: assets/cv/cv.tex
+          working_directory: assets/cv/
+          
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-pdf
+          path: assets/cv/cv.pdf
