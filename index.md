@@ -1,3 +1,5 @@
+# Let's update the homepage with your actual info
+cat > index.md << 'END'
 ---
 layout: default
 title: Home
@@ -7,6 +9,17 @@ title: Home
 
 ## Neuro-Symbolic AI Researcher
 
-Welcome to my academic website. I research the intersection of neural networks and symbolic reasoning to build interpretable and robust AI systems.
+[Your University/Affiliation]
 
-*More content coming soon...*
+### Research Focus
+
+My work bridges neural networks with symbolic reasoning to develop interpretable, robust AI systems. I'm particularly interested in [your specific interests].
+
+### Contact
+- Email: [your-email@example.com]
+- GitHub: [your-github]
+- LinkedIn: [your-linkedin]
+
+*Website under construction - more content coming soon!*
+END
+
