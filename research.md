@@ -13,10 +13,12 @@ permalink: /research/
 Today's artificial intelligence has split into two powerful but incomplete paradigms:
 
 **The Pattern Recognizer (Neural Networks)**
+
 - **Strength:** Excels at finding patterns in data—recognizing images, understanding speech, predicting sequences
 - **Weakness:** A "black box" that cannot explain its reasoning. It recognizes a cat but cannot tell you *why* it's a cat.
 
-**The Logic Engine (Symbolic AI)**  
+**The Logic Engine (Symbolic AI)**
+
 - **Strength:** Follows explicit rules and logic. Can provide step-by-step reasoning and explanations
 - **Weakness:** Brittle and unable to learn from data. It knows "all cats are mammals" but cannot recognize one in a photo
 
@@ -29,6 +31,7 @@ Neuro-Symbolic AI represents the essential synthesis—creating systems that com
 **The Core Insight:** True intelligence requires both recognizing patterns *and* reasoning about them.
 
 **Simple Example: A Kitchen Robot**
+
 - A neural network alone might recognize "knife" and "cutting motion" but not understand the danger
 - A symbolic system alone knows "sharp objects can cause injury" but cannot identify a knife
 - A neuro-symbolic system can both recognize the knife *and* reason: "Sharp object + rapid motion = potential danger"
@@ -40,27 +43,33 @@ This integration creates AI that doesn't just see the world—it *understands* i
 My work focuses on making this synthesis practical and scalable across three key challenges:
 
 ### 3.1 Building the Bridge: Neural-Symbolic Interfaces
+
 How do we translate between neural representations (patterns, probabilities) and symbolic representations (logic, rules)?
 
 **Research Question:** Can we create differentiable interfaces that allow seamless communication between neural and symbolic components?
 
 ### 3.2 Efficient Reasoning: Making Symbolic AI Scalable
+
 Traditional symbolic reasoning can be computationally expensive. How do we make it fast enough for real-world applications?
 
 **Research Question:** What approximations and optimizations can make logical reasoning practical for real-time systems?
 
 ### 3.3 Applications: Where Reasoning Matters Most
+
 I'm particularly interested in domains where explanation and reliability are non-negotiable:
 
 **Robotics & Autonomous Systems**
+
 - Robots that can explain their decisions ("I stopped because the path was obstructed")
 - Systems that can reason about safety constraints in real-time
 
-**High-Stakes Decision Making**  
+**High-Stakes Decision Making**
+
 - Financial systems that can justify investment recommendations
 - Medical AI that can trace diagnostic reasoning step-by-step
 
 **Scientific Discovery**
+
 - AI assistants that can formulate and test hypotheses systematically
 - Systems that can reason about causal relationships in complex data
 
@@ -69,6 +78,7 @@ I'm particularly interested in domains where explanation and reliability are non
 We stand at a critical juncture in AI development. As AI systems become more integrated into our lives, their inability to explain themselves becomes increasingly problematic.
 
 Neuro-Symbolic AI isn't just an academic curiosity—it's the necessary foundation for:
+
 - **Trustworthy AI** that can be verified and validated
 - **Collaborative AI** that can work alongside humans effectively  
 - **Adaptable AI** that can apply learned knowledge to new situations
@@ -116,7 +126,6 @@ The path toward truly intelligent machines runs directly through the integration
 .research-content p {
     margin-bottom: 1.2em;
     font-size: 1.1rem;
-    text-align: left;
 }
 
 .research-content ul {
@@ -133,6 +142,4 @@ The path toward truly intelligent machines runs directly through the integration
     color: #2c3e50;
     font-weight: 600;
 }
-
-/* Remove the chapter numbering for now - it was causing issues */
 </style>
