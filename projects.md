@@ -6,79 +6,43 @@ permalink: /projects/
 
 # Projects
 
-Hands-on implementations and research prototypes exploring Neuro-Symbolic AI across different domains. Each project combines theoretical research with practical implementation.
+Hands-on implementations and research prototypes exploring computational finance and AI systems. Each project combines theoretical research with practical implementation.
 
 ## Featured Projects
 
 <div class="project featured">
     <div class="project-header">
-        <h3>NeuroSymbolic-Finance</h3>
-        <span class="project-status">Active Development</span>
+        <h3>Optimal Execution under Self-Exciting Order Flow</h3>
+        <span class="project-status">Research Complete</span>
     </div>
     <div class="project-meta">
-        <span class="project-tech">Python • PyTorch • Prolog • Redis</span>
-        <span class="project-date">2024 - Present</span>
+        <span class="project-tech">Python • Hawkes Processes • Stochastic Control • Jupyter</span>
+        <span class="project-date">2024</span>
     </div>
     <p class="project-description">
-        A real-time trading system that combines neural networks for market pattern recognition with symbolic reasoning for explainable decision-making. The system processes high-frequency market data and provides transparent trading signals with full audit trails.
+        A novel optimal execution framework that integrates Hawkes processes with linear-quadratic stochastic control to model self-exciting order flow in financial markets. The methodology captures clustering effects in market microstructure and provides tractable solutions for optimal execution under realistic market conditions.
     </p>
     <div class="project-features">
-        <h4>Key Features:</h4>
+        <h4>Key Contributions:</h4>
         <ul>
-            <li>Real-time inference under 50ms latency</li>
-            <li>Symbolic rule engine with 1000+ trading rules</li>
-            <li>Neural-symbolic interface for pattern-to-rule mapping</li>
-            <li>Comprehensive backtesting framework</li>
+            <li>First integration of Hawkes processes with LQ control for optimal execution</li>
+            <li>Parameters calibrated on real market data from 5 major stocks</li>
+            <li>8-15% cost reduction compared to traditional execution strategies</li>
+            <li>Fully reproducible codebase with comprehensive documentation</li>
         </ul>
     </div>
     <div class="project-results">
-        <h4>Technical Achievements:</h4>
+        <h4>Experimental Results:</h4>
         <ul>
-            <li>40% improvement in risk-adjusted returns vs baseline models</li>
-            <li>Full explainability for regulatory compliance</li>
-            <li>Scalable to 10,000+ messages/second throughput</li>
+            <li>Cost Reduction vs AC: 8-15% improvement</li>
+            <li>Market Regimes Tested: 3×3 parameter grid</li>
+            <li>Real Data Validation: 5 stocks, 1,255 trading days</li>
+            <li>Statistical Significance: p < 0.05 across tested scenarios</li>
         </ul>
     </div>
     <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/NeuroSymbolic-Finance" class="project-link">View Code</a>
-        <a href="#" class="project-link">Documentation</a>
-        <a href="#" class="project-link">Live Demo</a>
-    </div>
-</div>
-
-<div class="project featured">
-    <div class="project-header">
-        <h3>FastReason Engine</h3>
-        <span class="project-status">Research Prototype</span>
-    </div>
-    <div class="project-meta">
-        <span class="project-tech">C++ • CUDA • Python • ONNX</span>
-        <span class="project-date">2023 - Present</span>
-    </div>
-    <p class="project-description">
-        A high-performance reasoning engine that accelerates symbolic inference using GPU parallelization and approximate reasoning techniques. Designed to overcome the computational bottleneck in traditional symbolic AI systems.
-    </p>
-    <div class="project-features">
-        <h4>Technical Innovations:</h4>
-        <ul>
-            <li>GPU-accelerated theorem proving</li>
-            <li>Incremental reasoning algorithms</li>
-            <li>Approximate symbolic inference with bounds</li>
-            <li>Multi-threaded knowledge base operations</li>
-        </ul>
-    </div>
-    <div class="project-results">
-        <h4>Performance Metrics:</h4>
-        <ul>
-            <li>8.3x speedup over traditional reasoning systems</li>
-            <li>96% accuracy maintained in benchmark tests</li>
-            <li>Support for knowledge graphs with 1M+ entities</li>
-        </ul>
-    </div>
-    <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/FastReason" class="project-link">View Code</a>
-        <a href="#" class="project-link">Benchmarks</a>
-        <a href="#" class="project-link">Paper</a>
+        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">View Code</a>
+        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">Documentation</a>
     </div>
 </div>
 
@@ -86,105 +50,27 @@ Hands-on implementations and research prototypes exploring Neuro-Symbolic AI acr
 
 <div class="project library">
     <div class="project-header">
-        <h3>NeuroSymbolic-Py</h3>
-        <span class="project-status">Open Source Library</span>
+        <h3>Financial Market Analysis Toolkit</h3>
+        <span class="project-status">Open Source</span>
     </div>
     <div class="project-meta">
-        <span class="project-tech">Python • PyTorch • NetworkX</span>
+        <span class="project-tech">Python • NumPy • Pandas • Matplotlib</span>
         <span class="project-date">2024</span>
     </div>
     <p class="project-description">
-        A Python library for building neuro-symbolic AI systems. Provides modular components for neural-symbolic integration, knowledge infusion, and hybrid reasoning.
+        Comprehensive toolkit for financial market analysis, including Hawkes process calibration, stochastic control implementations, and backtesting frameworks for execution strategies.
     </p>
     <div class="project-features">
         <h4>Core Components:</h4>
         <ul>
-            <li>Symbolic knowledge injection layers</li>
-            <li>Differentiable reasoning modules</li>
-            <li>Knowledge graph neural networks</li>
-            <li>Rule-based constraint systems</li>
+            <li>Hawkes process calibration on real market data</li>
+            <li>Stochastic control with self-exciting dynamics</li>
+            <li>Multi-asset backtesting framework</li>
+            <li>Publication-ready visualizations</li>
         </ul>
     </div>
     <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/NeuroSymbolic-Py" class="project-link">PyPI</a>
-        <a href="https://github.com/Abhishek282001Tiwari/NeuroSymbolic-Py" class="project-link">GitHub</a>
-        <a href="#" class="project-link">Tutorials</a>
-    </div>
-</div>
-
-<div class="project library">
-    <div class="project-header">
-        <h3>ReasonBench</h3>
-        <span class="project-status">Benchmark Suite</span>
-    </div>
-    <div class="project-meta">
-        <span class="project-tech">Python • Docker • MLflow</span>
-        <span class="project-date">2024</span>
-    </div>
-    <p class="project-description">
-        A comprehensive benchmarking suite for evaluating neuro-symbolic AI systems across multiple dimensions: reasoning accuracy, computational efficiency, and explainability quality.
-    </p>
-    <div class="project-features">
-        <h4>Evaluation Metrics:</h4>
-        <ul>
-            <li>Reasoning accuracy on logical puzzles</li>
-            <li>Inference latency and throughput</li>
-            <li>Explainability scores (human evaluation)</li>
-            <li>Knowledge integration efficiency</li>
-        </ul>
-    </div>
-    <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/ReasonBench" class="project-link">GitHub</a>
-        <a href="#" class="project-link">Leaderboard</a>
-        <a href="#" class="project-link">Paper</a>
-    </div>
-</div>
-
-## Experimental Prototypes
-
-<div class="project experimental">
-    <div class="project-header">
-        <h3>MedExplain AI</h3>
-        <span class="project-status">Proof of Concept</span>
-    </div>
-    <div class="project-meta">
-        <span class="project-tech">Python • FastAPI • Medical Knowledge Graphs</span>
-        <span class="project-date">2023</span>
-    </div>
-    <p class="project-description">
-        A diagnostic assistant that combines medical imaging analysis with clinical knowledge reasoning. Provides interpretable diagnoses with supporting evidence from medical literature.
-    </p>
-    <div class="project-features">
-        <h4>Capabilities:</h4>
-        <ul>
-            <li>Radiology image analysis with CNN backbone</li>
-            <li>Clinical guideline reasoning engine</li>
-            <li>Evidence-based explanation generation</li>
-            <li>Multi-modal data integration</li>
-        </ul>
-    </div>
-</div>
-
-<div class="project experimental">
-    <div class="project-header">
-        <h3>CyberDefend AI</h3>
-        <span class="project-status">Research Exploration</span>
-    </div>
-    <div class="project-meta">
-        <span class="project-tech">Python • Security Knowledge Graphs • ML</span>
-        <span class="project-date">2023</span>
-    </div>
-    <p class="project-description">
-        A cyber security threat detection system that learns from network patterns while reasoning about attack strategies using symbolic threat models.
-    </p>
-    <div class="project-features">
-        <h4>Features:</h4>
-        <ul>
-            <li>Anomaly detection with LSTM networks</li>
-            <li>Attack graph reasoning</li>
-            <li>Threat intelligence integration</li>
-            <li>Explainable alert generation</li>
-        </ul>
+        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">GitHub</a>
     </div>
 </div>
 
@@ -195,7 +81,7 @@ Hands-on implementations and research prototypes exploring Neuro-Symbolic AI acr
     <div class="principles-grid">
         <div class="principle">
             <h4>🔬 Research-Driven</h4>
-            <p>Every project starts with a clear research question and contributes to advancing the field of Neuro-Symbolic AI.</p>
+            <p>Every project starts with a clear research question and contributes to advancing computational finance and AI systems.</p>
         </div>
         <div class="principle">
             <h4>⚡ Production-Ready</h4>
@@ -218,30 +104,29 @@ Hands-on implementations and research prototypes exploring Neuro-Symbolic AI acr
     <h3>Core Technologies</h3>
     <div class="tech-categories">
         <div class="tech-category">
-            <h4>Machine Learning</h4>
+            <h4>Data Science</h4>
             <div class="tech-tags">
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">TensorFlow</span>
-                <span class="tech-tag">Scikit-learn</span>
-                <span class="tech-tag">Hugging Face</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Jupyter</span>
             </div>
         </div>
         <div class="tech-category">
-            <h4>Symbolic AI</h4>
+            <h4>Quantitative Finance</h4>
             <div class="tech-tags">
-                <span class="tech-tag">Prolog</span>
-                <span class="tech-tag">Datalog</span>
-                <span class="tech-tag">Knowledge Graphs</span>
-                <span class="tech-tag">Rule Engines</span>
+                <span class="tech-tag">Stochastic Control</span>
+                <span class="tech-tag">Hawkes Processes</span>
+                <span class="tech-tag">Backtesting</span>
+                <span class="tech-tag">Risk Management</span>
             </div>
         </div>
         <div class="tech-category">
-            <h4>Systems & Infrastructure</h4>
+            <h4>Visualization</h4>
             <div class="tech-tags">
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">Redis</span>
-                <span class="tech-tag">FastAPI</span>
-                <span class="tech-tag">CUDA</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">Plotly</span>
             </div>
         </div>
     </div>
@@ -249,7 +134,7 @@ Hands-on implementations and research prototypes exploring Neuro-Symbolic AI acr
 
 ---
 
-*Interested in collaborating on any of these projects? [Get in touch](/contact) to discuss potential partnerships or research opportunities.*
+*Interested in collaborating on any of these projects? [Get in touch](mailto:abhishekt282001@gmail.com) to discuss potential partnerships or research opportunities.*
 
 <style>
 .project {
@@ -491,4 +376,3 @@ Hands-on implementations and research prototypes exploring Neuro-Symbolic AI acr
     }
 }
 </style>
-END
