@@ -1,4 +1,3 @@
-cat > cv.md << 'END'
 ---
 layout: default
 title: CV
@@ -13,6 +12,7 @@ permalink: /cv/
         <button onclick="zoomOut()" class="cv-btn">Zoom Out</button>
         <button onclick="resetZoom()" class="cv-btn">Reset Zoom</button>
         <a href="/assets/cv/cv.pdf" download class="cv-btn download-btn">Download PDF</a>
+        <a href="/assets/cv/cv.tex" download class="cv-btn source-btn">Download LaTeX Source</a>
     </div>
     
     <div class="pdf-viewer">
@@ -35,7 +35,7 @@ permalink: /cv/
             <li>View in fullscreen mode</li>
             <li>Navigate through pages</li>
         </ul>
-        <p><strong>Last Updated:</strong> <span id="last-updated">Loading...</span></p>
+        <p><strong>Last Updated:</strong> Recently</p>
     </div>
 </div>
 
@@ -76,6 +76,14 @@ permalink: /cv/
 
 .download-btn:hover {
     background: #45a049;
+}
+
+.source-btn {
+    background: #2196f3;
+}
+
+.source-btn:hover {
+    background: #1976d2;
 }
 
 .pdf-viewer {
@@ -169,26 +177,4 @@ function updateZoom() {
     iframe.style.width = `${100 / currentZoom}%`;
     iframe.style.height = `${600 / currentZoom}px`;
 }
-
-// Get last modified date of PDF
-function updateLastModified() {
-    fetch('/assets/cv/cv.pdf')
-        .then(response => {
-            const lastModified = response.headers.get('last-modified');
-            if (lastModified) {
-                document.getElementById('last-updated').textContent = new Date(lastModified).toLocaleDateString();
-            } else {
-                document.getElementById('last-updated').textContent = 'Recently';
-            }
-        })
-        .catch(() => {
-            document.getElementById('last-updated').textContent = 'Recently';
-        });
-}
-
-// Initialize
-document.addEventListener('DOMContentLoaded', function() {
-    updateLastModified();
-});
 </script>
-END
