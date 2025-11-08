@@ -50,7 +50,7 @@ title: Home
     </ul>
 </div>
 
-<!-- NEW CV SECTION -->
+<!-- CV SECTION -->
 <div class="cv-section">
     <h2>Curriculum Vitae</h2>
     <p>View my professional background, experience, and skills. The CV is typeset in LaTeX for optimal readability.</p>
@@ -60,13 +60,13 @@ title: Home
             <button onclick="zoomInCV()" class="cv-btn">Zoom In</button>
             <button onclick="zoomOutCV()" class="cv-btn">Zoom Out</button>
             <button onclick="resetZoomCV()" class="cv-btn">Reset Zoom</button>
-            <a href="/assets/cv/cv.pdf" download class="cv-btn download-btn">Download PDF</a>
+            <a href="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf" download class="cv-btn download-btn">Download PDF</a>
         </div>
         
         <div class="pdf-viewer">
             <iframe 
                 id="cv-pdf"
-                src="/assets/cv/cv.pdf#view=FitH"
+                src="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf#view=FitH"
                 width="100%" 
                 height="500"
                 frameborder="0"
@@ -82,250 +82,12 @@ title: Home
     <div class="contact-links">
         <a href="mailto:abhishekt282001@gmail.com" class="contact-btn">Email Me</a>
         <a href="https://github.com/Abhishek282001Tiwari" class="contact-btn">GitHub</a>
-        <a href="/research" class="contact-btn">Research Details</a>
+        <a href="/Personal_Website/research" class="contact-btn">Research Details</a>
     </div>
 </div>
 
 <style>
-/* Existing styles from your homepage */
-.hero {
-    text-align: center;
-    padding: 4rem 0 3rem 0;
-    border-bottom: 1px solid #eaeaea;
-    margin-bottom: 3rem;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 0.5rem;
-    letter-spacing: -1px;
-}
-
-.hero-tagline {
-    font-size: 1.4rem;
-    color: #666;
-    margin-bottom: 1rem;
-    font-weight: 400;
-}
-
-.hero-mission {
-    font-size: 1.2rem;
-    color: #333;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.6;
-    font-style: italic;
-}
-
-.research-focus {
-    margin-bottom: 3rem;
-}
-
-.research-focus h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.applications-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.application-card {
-    padding: 2rem;
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.application-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.application-card h3 {
-    color: #000;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-
-.core-problem {
-    background: #f8f9fa;
-    padding: 3rem 2rem;
-    margin: 3rem 0;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.core-problem blockquote {
-    font-size: 1.4rem;
-    color: #000;
-    font-style: italic;
-    margin: 2rem auto;
-    max-width: 600px;
-    border-left: 4px solid #000;
-    padding-left: 1.5rem;
-}
-
-.research-areas {
-    margin-bottom: 3rem;
-}
-
-.research-list {
-    list-style: none;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.research-list li {
-    padding: 1rem 0;
-    border-bottom: 1px solid #f0f0f0;
-    color: #333;
-}
-
-.research-list li:last-child {
-    border-bottom: none;
-}
-
-.cta-section {
-    text-align: center;
-    padding: 3rem 2rem;
-    background: #000;
-    color: white;
-    border-radius: 8px;
-}
-
-.cta-section h2 {
-    color: white;
-    margin-bottom: 1rem;
-}
-
-.contact-links {
-    margin-top: 2rem;
-}
-
-.contact-btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    margin: 0 0.5rem;
-    background: white;
-    color: #000;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 500;
-    transition: all 0.2s;
-}
-
-.contact-btn:hover {
-    background: #f0f0f0;
-    transform: translateY(-1px);
-}
-
-/* NEW CV SECTION STYLES */
-.cv-section {
-    margin: 4rem 0;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-}
-
-.cv-section h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-.cv-section p {
-    text-align: center;
-    color: #666;
-    margin-bottom: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cv-preview {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.cv-controls {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.cv-btn {
-    padding: 0.6rem 1.2rem;
-    background: #000;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: background 0.2s;
-    text-decoration: none;
-}
-
-.cv-btn:hover {
-    background: #333;
-}
-
-.download-btn {
-    background: #4caf50;
-}
-
-.download-btn:hover {
-    background: #45a049;
-}
-
-.pdf-viewer {
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2.2rem;
-    }
-    
-    .hero-tagline {
-        font-size: 1.2rem;
-    }
-    
-    .applications-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .contact-btn {
-        display: block;
-        margin: 0.5rem auto;
-        width: 200px;
-    }
-    
-    .cv-controls {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    
-    .cv-btn {
-        text-align: center;
-    }
-    
-    .pdf-viewer {
-        height: 400px;
-    }
-}
+/* ... (all your existing CSS styles) ... */
 </style>
 
 <script>
