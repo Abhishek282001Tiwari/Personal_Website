@@ -1,5 +1,5 @@
 title: "Abhishek Tiwari"
-email: "your-email@example.com"
+email: "abhishekt282001@gmail.com"
 description: "Neuro-Symbolic AI Research"
 baseurl: "/Personal_Website"
 url: "https://abhishek282001tiwari.github.io"
@@ -8,17 +8,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Simple navigation
+# Simple navigation - now pointing to root files
 nav:
   - name: "About"
     url: "/"
   - name: "Research"
-    url: "/research/"
-  - name: "Publications" 
-    url: "/publications/"
+    url: "/research.html"
+  - name: "Publications"
+    url: "/publications.html"
   - name: "Projects"
-    url: "/projects/"
+    url: "/projects.html"
   - name: "CV"
-    url: "/cv/"
+    url: "/cv.html"
   - name: "Blog"
-    url: "/blog/"
+    url: "/blog.html"
