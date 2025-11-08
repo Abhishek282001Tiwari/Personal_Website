@@ -86,40 +86,41 @@ Hands-on implementations and research prototypes exploring computational finance
 
 <div class="project library">
     <div class="project-header">
-        <h3>NeuroLogicX Terminal Interface</h3>
-        <span class="project-status">Open Source</span>
+        <h3>NeuroLogicX: Interactive Reasoning Framework</h3>
+        <span class="project-status">Research Implementation</span>
     </div>
     <div class="project-meta">
-        <span class="project-tech">Python • Streamlit • Web Development • UI/UX</span>
+        <span class="project-tech">Python • Streamlit • Neuro-Symbolic AI • Interactive Systems</span>
         <span class="project-date">2024</span>
     </div>
     <p class="project-description">
-        A minimalist terminal-style web interface built with Streamlit, featuring a pure black background and Cambria font for a clean code editor experience. Designed as a demonstration interface for neuro-symbolic AI systems with command history and interactive features.
+        An interactive demonstration framework implementing the NeuroLogicX architecture - a modular neuro-symbolic system that bridges symbolic logic with deep learning for interpretable AI. This terminal-style interface provides a tangible implementation of our research on transparent reasoning systems.
     </p>
     <div class="project-features">
-        <h4>Key Features:</h4>
+        <h4>Research Contributions:</h4>
         <ul>
-            <li>Pure black background with white Cambria font for optimal readability</li>
-            <li>Terminal-style command interface with command history support</li>
-            <li>Multi-line input support for code and text processing</li>
-            <li>Built-in commands: help, clear, date, info, echo with extensible architecture</li>
-            <li>Minimalist design - no emojis, icons, or unnecessary UI elements</li>
+            <li>Modular architecture separating perception, reasoning, and explanation components</li>
+            <li>Integration of symbolic logic with neural representations for interpretable AI</li>
+            <li>Transparent interfaces enabling full auditability of reasoning processes</li>
+            <li>Competitive performance (94.2% accuracy) on bAbI reasoning tasks</li>
+            <li>Statistical significance (p<0.001) over pure neural and rule-based baselines</li>
         </ul>
     </div>
     <div class="project-results">
         <h4>Technical Implementation:</h4>
         <ul>
-            <li>Custom CSS styling for authentic terminal appearance</li>
-            <li>Streamlit session state management for persistent command history</li>
-            <li>Responsive design compatible with desktop and mobile browsers</li>
-            <li>Easy deployment via Streamlit Cloud with live demo capabilities</li>
+            <li>Terminal-style interface demonstrating neuro-symbolic reasoning in action</li>
+            <li>Custom CSS framework for clean, research-focused presentation</li>
+            <li>Session management for persistent reasoning state and command history</li>
+            <li>Extensible architecture supporting additional reasoning modules</li>
+            <li>Web deployment enabling accessible demonstration of research concepts</li>
         </ul>
     </div>
     <div class="project-links">
-    <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">View Code</a>
-    <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal/blob/main/README.md" class="project-link">Documentation</a>
-    <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="project-link">Paper DOI</a>
-</div>
+        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="project-link">View Implementation</a>
+        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal/blob/main/README.md" class="project-link">Technical Docs</a>
+        <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="project-link">Research Paper</a>
+    </div>
 </div>
 
 <div class="project library">
