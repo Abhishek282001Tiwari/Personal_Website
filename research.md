@@ -3,6 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
+<div class="research-content">
 
 # The Next Frontier: Reasoning Machines through Neuro-Symbolic AI
 
@@ -77,6 +78,7 @@ The path toward truly intelligent machines runs directly through the integration
 ---
 
 *This research direction represents my commitment to developing AI systems that are not just powerful, but understandable, reliable, and truly intelligent.*
+</div>
 
 <style>
 /* LaTeX-style typography */
