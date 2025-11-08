@@ -3,6 +3,7 @@ layout: default
 title: Research
 permalink: /research/
 ---
+
 <div class="research-content">
 
 # The Next Frontier: Reasoning Machines through Neuro-Symbolic AI
@@ -12,12 +13,12 @@ permalink: /research/
 Today's artificial intelligence has split into two powerful but incomplete paradigms:
 
 **The Pattern Recognizer (Neural Networks)**
-- *Strength:* Excels at finding patterns in data—recognizing images, understanding speech, predicting sequences
-- *Weakness:* A "black box" that cannot explain its reasoning. It recognizes a cat but cannot tell you *why* it's a cat.
+- **Strength:** Excels at finding patterns in data—recognizing images, understanding speech, predicting sequences
+- **Weakness:** A "black box" that cannot explain its reasoning. It recognizes a cat but cannot tell you *why* it's a cat.
 
 **The Logic Engine (Symbolic AI)**  
-- *Strength:* Follows explicit rules and logic. Can provide step-by-step reasoning and explanations
-- *Weakness:* Brittle and unable to learn from data. It knows "all cats are mammals" but cannot recognize one in a photo
+- **Strength:** Follows explicit rules and logic. Can provide step-by-step reasoning and explanations
+- **Weakness:** Brittle and unable to learn from data. It knows "all cats are mammals" but cannot recognize one in a photo
 
 This division creates AI systems that are either powerful but inexplicable, or logical but inflexible.
 
@@ -75,60 +76,63 @@ Neuro-Symbolic AI isn't just an academic curiosity—it's the necessary foundati
 
 The path toward truly intelligent machines runs directly through the integration of learning and reasoning.
 
----
-
-*This research direction represents my commitment to developing AI systems that are not just powerful, but understandable, reliable, and truly intelligent.*
 </div>
 
 <style>
-/* LaTeX-style typography */
 .research-content {
-    font-family: "Latin Modern Roman", "TeX Gyre Termes", "Libertinus Serif", "Times New Roman", serif;
-    line-height: 1.6;
-    max-width: 700px;
+    font-family: "Georgia", "Times New Roman", "Serif";
+    line-height: 1.7;
+    max-width: 800px;
     margin: 0 auto;
-    text-align: justify;
-}
-
-.research-content h1, .research-content h2, .research-content h3 {
-    font-family: "Latin Modern Roman", "TeX Gyre Termes", "Libertinus Serif", serif;
-    font-weight: bold;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 0.3em;
-    margin-top: 2em;
+    padding: 2rem 1rem;
+    color: #333;
 }
 
 .research-content h1 {
     font-size: 2.2rem;
     text-align: center;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
 }
 
 .research-content h2 {
     font-size: 1.6rem;
-    color: #333;
+    color: #2c3e50;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ecf0f1;
 }
 
 .research-content h3 {
     font-size: 1.3rem;
-    color: #555;
+    color: #34495e;
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .research-content p {
     margin-bottom: 1.2em;
     font-size: 1.1rem;
+    text-align: left;
 }
 
-/* Chapter numbering */
-.research-content h2::before {
-    content: "Chapter " counter(chapter) ": ";
-    counter-increment: chapter;
-    font-weight: normal;
-    color: #666;
+.research-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
 }
 
-.research-content {
-    counter-reset: chapter;
+.research-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
+
+.research-content strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Remove the chapter numbering for now - it was causing issues */
 </style>
-        
