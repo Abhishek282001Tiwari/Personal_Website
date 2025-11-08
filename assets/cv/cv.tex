@@ -1,0 +1,256 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Abhishek Tiwari} \\[7.5pt]
+\href{https://github.com/Abhishek282001Tiwari}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \ 
+\href{www.linkedin.com/in/abhishek282001}{\raisebox{-0.05\height}\faLinkedin\ Linkedin} \ $|$ \ 
+\href{mailto:abhishekt282001@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ abhishekt282001@gmail.com} \ $|$ \ 
+\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +91 8421960019}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
+\section{Summary}
+Independent Researcher in Quantitative Finance and Artificial Intelligence with expertise in market microstructure, high-frequency trading, stochastic control, and machine learning. Experienced in developing Hawkes process models, optimal execution frameworks, and simulation-based optimization engines for complex financial and aerospace systems. Strong background in reinforcement learning, Bayesian methods, and interpretable AI, with multiple working papers and preprints under review. Seeking research or applied AI/quant positions to advance robust, explainable, and high-performance computational solutions in finance and optimization.
+
+%Experience
+\section{Work Experience}
+
+\begin{joblong}{Business Intelligence Analyst, Allpay Ltd, Hereford, UK}{February 2024 -- Present}
+\item Developed ML-driven pipelines and optimization projects for fintech/payments, generating data-driven insights.
+\item Designed and maintained interactive dashboards and visualizations to support operational and strategic functions.
+\item Applied advanced analytics and predictive modeling to improve product performance and operational efficiency.
+\end{joblong}
+
+\begin{joblong}{Research Assistant, University of Liverpool, UK}{Oct 2023 -- Sep 2024}
+\item Conducted AI and computational modeling research in stochastic processes, reinforcement learning, and graph-based methods.
+\item Implemented Python-based simulations and ML models for quantitative analyses and system optimization.
+\item Contributed to manuscript preparation, preprints, and academic publications in AI and interpretable modeling.
+\end{joblong}
+  
+%Projects
+\section{Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Multi-Regime Climate-Financial Risk Transmission Engine} & \hfill \href{https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developed an econometric engine modeling climate-financial risk transmission using Hamilton’s Markov regime-switching model with climate extensions. Includes 9+ years of empirical data, interactive dashboards, and reproducible code for real-time stress testing and risk analysis.} \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Quantum-Inspired Portfolio Optimization Platform} & \hfill \href{https://github.com/Abhishek282001Tiwari/Quantum_Inspired_Portfolio_Optamization}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Built a research-grade framework applying quantum algorithms (QAOA, VQE, Quantum Annealing) to portfolio optimization. Benchmarked against classical models (Markowitz, Black-Litterman, HRP) with extensions to multi-objective, cardinality, and transaction cost optimization. Includes scalability and noise-resilience studies.} \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Cross-Venue Hawkes Process Model} & \hfill \href{https://github.com/Abhishek282001Tiwari/crossvenue_hawkes}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Designed a multivariate Hawkes process model with cross-venue graph structure for high-frequency 
+order flow prediction. Implements real-time particle filter calibration and GNN-based excitation modeling, with 
+profitability demonstrations on multi-exchange tick and order book data. \textit{(Work in Progress)}} \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Neurologicx Terminal (Neurosymbolic AI)} & \hfill \href{https://github.com/Abhishek282001Tiwari/neurologicx_terminal}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developing a modular, terminal-style neurosymbolic reasoning system with Python backend and Streamlit deployment. Combines NLP parsing, symbolic program synthesis, and interpretable reasoning pipelines. } \\
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+
+2022 -- 2023 & \textbf{University of Liverpool}, United Kingdom \\
+             & Post Graduate Diploma in Finance \& Investment Management \hfill GPA: 3.65/4.00 \\
+             & Dissertation: \textit{The Impact of Mergers and Acquisitions on Firm Financial Performance: A Quantitative Analysis Using Mathematical Modeling and Python} \\[8pt]
+
+2018 -- 2021 & \textbf{G.C. University}, India \\
+             & Bachelor of Business Administration (BBA) \hfill GPA: 3.80/4.00 \\
+             & Dissertation: \textit{Mathematical and Computational Approaches to Financial Performance Analysis: An Empirical Study Using Python} \\
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Publications}
+\begin{enumerate}[leftmargin=*]
+  \item Abhishek Pankaj Tiwari. 
+  \textit{A Modular Neurosymbolic Framework for General-Purpose Reasoning: Bridging Symbolic and Deep Learning for Interpretable AI}. 
+  TechRxiv, July 2025. 
+  \href{https://doi.org/10.36227/techrxiv.175295182.20276969/v1}{DOI link}. 
+  (Preprint, under review).
+  \begin{itemize}
+      \item \textbf{Methodological novelty:} Introduces a modular neurosymbolic reasoning pipeline integrating symbolic program synthesis with deep learning for interpretable general-purpose reasoning.
+  \end{itemize}
+  
+  \item Abhishek Pankaj Tiwari.  
+  \textit{Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework}.  
+  Manuscript in preparation. (Working paper).  
+  \begin{itemize}
+      \item \textbf{Methodological novelty:} Develops a stochastic control framework that integrates Hawkes process–based self-exciting order flow with optimal execution models, capturing endogenous market impact and feedback effects in high-frequency trading environments.
+  \end{itemize}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Programming & \normalsize{Python (NumPy, SciPy, PyTorch, JAX), C++ (11/14), MATLAB, Julia, CUDA, MPI, Git, kdb+/q, SQL} \\
+\\
+Machine Learning & \normalsize{Bayesian ML, deep learning for sequential data, reinforcement learning (safe \& distributional), graph neural networks, hidden Markov models, regime detection} \\
+\\
+Stochastic Processes \& Control & \normalsize{Hawkes and point processes, stochastic calculus, stochastic differential equations, stochastic control (HJB, dynamic programming), optimal execution (Almgren–Chriss, mean-field models)} \\
+\\
+Optimization \& Simulation & \normalsize{Simulation-based optimization, convex/non-convex optimization, robust optimization, Monte Carlo methods (variance reduction, importance sampling), PDE solvers (finite difference, Crank–Nicolson)} \\
+\\
+Market Microstructure & \normalsize{Limit order book modeling, high-frequency forecasting, market impact models, statistical arbitrage, liquidity and volatility estimation, order flow prediction} 
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
+
