@@ -149,68 +149,7 @@ Hands-on implementations and research prototypes exploring computational finance
     </div>
 </div>
 
-## Project Philosophy
-
-<div class="philosophy-section">
-    <h3>Implementation Principles</h3>
-    <div class="principles-grid">
-        <div class="principle">
-            <h4>🔬 Research-Driven</h4>
-            <p>Every project starts with a clear research question and contributes to advancing computational finance and AI systems.</p>
-        </div>
-        <div class="principle">
-            <h4>⚡ Production-Ready</h4>
-            <p>Code is written with scalability, maintainability, and deployment considerations from day one.</p>
-        </div>
-        <div class="principle">
-            <h4>📚 Well-Documented</h4>
-            <p>Comprehensive documentation, tutorials, and examples to enable reproducibility and collaboration.</p>
-        </div>
-        <div class="principle">
-            <h4>🔓 Open Source</h4>
-            <p>Maximum impact through open sourcing code, models, and datasets whenever possible.</p>
-        </div>
-    </div>
-</div>
-
-## Technology Stack
-
-<div class="tech-stack">
-    <h3>Core Technologies</h3>
-    <div class="tech-categories">
-        <div class="tech-category">
-            <h4>Data Science</h4>
-            <div class="tech-tags">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">NumPy</span>
-                <span class="tech-tag">Pandas</span>
-                <span class="tech-tag">Jupyter</span>
-            </div>
-        </div>
-        <div class="tech-category">
-            <h4>Quantitative Finance</h4>
-            <div class="tech-tags">
-                <span class="tech-tag">Stochastic Control</span>
-                <span class="tech-tag">Hawkes Processes</span>
-                <span class="tech-tag">Markov Regime-Switching</span>
-                <span class="tech-tag">Jump-Diffusion Models</span>
-            </div>
-        </div>
-        <div class="tech-category">
-            <h4>Visualization & Deployment</h4>
-            <div class="tech-tags">
-                <span class="tech-tag">Streamlit</span>
-                <span class="tech-tag">Matplotlib</span>
-                <span class="tech-tag">Plotly</span>
-                <span class="tech-tag">Seaborn</span>
-            </div>
-        </div>
-    </div>
-</div>
-
----
-
-*Interested in collaborating on any of these projects? [Get in touch](mailto:abhishekt282001@gmail.com) to discuss potential partnerships or research opportunities.*
+-----
 
 <style>
 .project {
