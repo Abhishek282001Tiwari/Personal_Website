@@ -1,50 +1,24 @@
 title: "Abhishek Tiwari"
-description: "Quantitative Finance • Machine Learning • Operations Research"
-# For root domain (username.github.io): baseurl should be empty ""
-# For subdirectory (username.github.io/repo-name): baseurl should be "/repo-name"  
+email: "your-email@example.com"
+description: "Neuro-Symbolic AI Research"
 baseurl: "/Personal_Website"
 url: "https://abhishek282001tiwari.github.io"
-author: "Abhishek Tiwari"
-email: "Abhishekt282001@gmail.com"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
 theme: minima
-
-# Include pages directory
-include: ['pages']
-
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
-  publications:
-    output: true
-    permalink: /:collection/:name/
-
-# Social links (for footer)
-github_username: Abhishek282001Tiwari
-linkedin_username: yourlinkedin
-twitter_username: yourtwitter
-kaggle_username: yourkaggle
-
-# Pagination for blog
-paginate: 5
-paginate_path: "/blog/page:num/"
-
-# Jekyll plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor/
+# Simple navigation
+nav:
+  - name: "About"
+    url: "/"
+  - name: "Research"
+    url: "/research/"
+  - name: "Publications" 
+    url: "/publications/"
+  - name: "Projects"
+    url: "/projects/"
+  - name: "CV"
+    url: "/cv/"
+  - name: "Blog"
+    url: "/blog/"
