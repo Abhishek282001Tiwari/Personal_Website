@@ -12,12 +12,14 @@ plugins:
 nav:
   - name: "About"
     url: "/"
-  - name: "Research Vision"  # Changed from "Research"
+  - name: "Research Vision"
     url: "/research/"
   - name: "Publications"
     url: "/publications/"
   - name: "Projects"
     url: "/projects/"
+  - name: "Blog"
+    url: "/blog/"
 
 head_scripts: |
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
