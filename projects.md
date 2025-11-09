@@ -127,27 +127,40 @@ Published research projects with full codebase availability. Each implementation
 
 <div class="project library">
     <div class="project-header">
-        <h3>Financial Market Analysis Toolkit</h3>
-        <span class="project-status">Open Source</span>
+        <h3>Adaptive Multi-Fidelity Aerospace Optimization</h3>
+        <span class="project-status">Production Ready</span>
     </div>
     <div class="project-meta">
-        <span class="project-tech">Python • NumPy • Pandas • Matplotlib</span>
+        <span class="project-tech">Python • Multi-Fidelity Simulation • Bayesian Optimization • CFD</span>
         <span class="project-date">2024</span>
     </div>
     <p class="project-description">
-        Comprehensive toolkit for financial market analysis, including Hawkes process calibration, stochastic control implementations, and backtesting frameworks for execution strategies.
+        A cutting-edge aerospace optimization framework that achieves 85.7% computational cost reduction while maintaining superior solution quality through intelligent multi-fidelity simulation strategies. Implements adaptive fidelity switching between low-fidelity analytical models and high-fidelity CFD approximations.
     </p>
     <div class="project-features">
-        <h4>Core Components:</h4>
+        <h4>Key Achievements:</h4>
         <ul>
-            <li>Hawkes process calibration on real market data</li>
-            <li>Stochastic control with self-exciting dynamics</li>
-            <li>Multi-asset backtesting framework</li>
-            <li>Publication-ready visualizations</li>
+            <li>85.7% computational cost reduction compared to high-fidelity-only approaches</li>
+            <li>99.5% solution accuracy exceeding 90% industry threshold requirement</li>
+            <li>100% test coverage with comprehensive validation across 67 test cases</li>
+            <li>NASA/AIAA compliant framework for aerospace industry standards</li>
+            <li>Production-deployed and ready for real-world aerospace applications</li>
+        </ul>
+    </div>
+    <div class="project-results">
+        <h4>Technical Implementation:</h4>
+        <ul>
+            <li>Multi-fidelity simulation framework with adaptive switching logic</li>
+            <li>Multiple optimization algorithms (GA, PSO, Bayesian, NSGA-II)</li>
+            <li>Uncertainty quantification and robust optimization methods</li>
+            <li>Aerospace applications: aircraft design, spacecraft mission planning</li>
+            <li>Professional visualization and comprehensive data management</li>
         </ul>
     </div>
     <div class="project-links">
-        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="project-link">GitHub</a>
+        <a href="https://github.com/Abhishek282001Tiwari/Adaptive_Multi-Fidelity_Simulation-Based_Optimization_for_Aerospace_Systems" class="project-link">View Code</a>
+        <a href="https://github.com/Abhishek282001Tiwari/Adaptive_Multi-Fidelity_Simulation-Based_Optimization_for_Aerospace_Systems/blob/main/README.md" class="project-link">Documentation</a>
+        <a href="https://abhishek282001tiwari.github.io/Adaptive_Multi-Fidelity_Simulation-Based_Optimization_for_Aerospace_Systems/downloads/" class="project-link">Live Demo</a>
     </div>
 </div>
 
