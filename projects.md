@@ -84,9 +84,7 @@ Published research projects with full codebase availability. Each implementation
     </div>
 </div>
 
-## Research Tools & Libraries
-
-<div class="project library">
+<div class="project featured">
     <div class="project-header">
         <h3>NeuroLogicX: Interactive Reasoning Framework</h3>
         <span class="project-status">Research Implementation</span>
@@ -125,7 +123,7 @@ Published research projects with full codebase availability. Each implementation
     </div>
 </div>
 
-<div class="project library">
+<div class="project featured">
     <div class="project-header">
         <h3>Adaptive Multi-Fidelity Aerospace Optimization</h3>
         <span class="project-status">Production Ready</span>
@@ -164,7 +162,9 @@ Published research projects with full codebase availability. Each implementation
     </div>
 </div>
 
------
+---
+
+*Interested in collaborating on any of these projects? [Get in touch](mailto:abhishekt282001@gmail.com) to discuss potential partnerships or research opportunities.*
 
 <style>
 .project {
@@ -178,14 +178,6 @@ Published research projects with full codebase availability. Each implementation
 .project.featured {
     border-left: 4px solid #000;
     background: #fafafa;
-}
-
-.project.library {
-    border-left: 4px solid #4caf50;
-}
-
-.project.experimental {
-    border-left: 4px solid #ff9800;
 }
 
 .project:hover {
@@ -218,14 +210,6 @@ Published research projects with full codebase availability. Each implementation
     font-size: 0.9rem;
     font-weight: 500;
     white-space: nowrap;
-}
-
-.project.library .project-status {
-    background: #4caf50;
-}
-
-.project.experimental .project-status {
-    background: #ff9800;
 }
 
 .project-meta {
@@ -306,82 +290,6 @@ Published research projects with full codebase availability. Each implementation
     background: #333;
 }
 
-.philosophy-section {
-    background: #000;
-    color: white;
-    padding: 2.5rem;
-    border-radius: 8px;
-    margin: 3rem 0;
-}
-
-.philosophy-section h3 {
-    color: white;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-}
-
-.principles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.principle {
-    text-align: center;
-}
-
-.principle h4 {
-    color: white;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-}
-
-.principle p {
-    color: #ccc;
-    line-height: 1.5;
-}
-
-.tech-stack {
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-}
-
-.tech-stack h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.tech-categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-}
-
-.tech-category h4 {
-    color: #000;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.tech-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-}
-
-.tech-tag {
-    background: white;
-    color: #333;
-    padding: 0.3rem 0.8rem;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    border: 1px solid #eaeaea;
-}
-
 @media (max-width: 768px) {
     .project-header {
         flex-direction: column;
@@ -395,14 +303,6 @@ Published research projects with full codebase availability. Each implementation
     .project-meta {
         flex-direction: column;
         align-items: flex-start;
-    }
-    
-    .principles-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .tech-categories {
-        grid-template-columns: 1fr;
     }
 }
 </style>
