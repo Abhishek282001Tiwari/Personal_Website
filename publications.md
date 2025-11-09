@@ -6,132 +6,48 @@ permalink: /publications/
 
 # Publications
 
-A collection of my research papers, preprints, and technical reports in Neuro-Symbolic AI and related fields.
+Peer-reviewed research papers and preprints in Neuro-Symbolic AI and related fields.
 
 ## Featured Publications
 
 <div class="publication featured">
     <div class="pub-header">
-        <h3>Towards Real-Time Neuro-Symbolic Reasoning in Financial Markets</h3>
+        <h3>A Modular Neurosymbolic Framework for General-Purpose Reasoning: Bridging Symbolic and Deep Learning for Interpretable AI</h3>
         <span class="pub-status">Preprint • 2024</span>
     </div>
     <p class="pub-authors">Abhishek Tiwari</p>
-    <p class="pub-abstract">This work introduces a hybrid architecture combining temporal convolutional networks with symbolic rule engines for real-time market analysis. The system achieves 40ms inference times while maintaining full explainability of trading decisions.</p>
+    <p class="pub-abstract">
+        Modern AI systems excel at perception tasks yet continue to struggle with general-purpose reasoning and interpretability. We present NeuroLogicX, a modular neurosymbolic framework that demonstrates the potential for interpretable AI through its design, combining symbolic logic with deep learning components. Unlike task-specific hybrids, NeuroLogicX cleanly separates perception, reasoning, and explanation into independent modules, each connected via transparent interfaces. Our experimental evaluation on bAbI reasoning tasks shows that NeuroLogicX achieves competitive performance (94.2% accuracy) while maintaining complete reasoning transparency, outperforming pure neural baselines (87.3% accuracy) and rule-based systems (91.1% accuracy) with statistical significance (p<0.001).
+    </p>
     <div class="pub-links">
-        <a href="#" class="pub-link">PDF</a>
-        <a href="#" class="pub-link">Code</a>
-        <a href="#" class="pub-link">arXiv</a>
+        <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="pub-link">Paper</a>
+        <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="pub-link">Code</a>
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DyC5124AAAAJ" class="pub-link">Google Scholar</a>
     </div>
     <div class="pub-tags">
         <span class="pub-tag">Neuro-Symbolic AI</span>
-        <span class="pub-tag">Financial AI</span>
-        <span class="pub-tag">Real-time Systems</span>
-    </div>
-</div>
-
-<div class="publication featured">
-    <div class="pub-header">
-        <h3>Efficient Knowledge Graph Reasoning with Neural-Symbolic Integration</h3>
-        <span class="pub-status">Preprint • 2024</span>
-    </div>
-    <p class="pub-authors">Abhishek Tiwari</p>
-    <p class="pub-abstract">We present a method for accelerating symbolic reasoning on large knowledge graphs using neural network approximations. Our approach reduces reasoning time by 8.3x while maintaining 96% accuracy compared to traditional symbolic methods.</p>
-    <div class="pub-links">
-        <a href="#" class="pub-link">PDF</a>
-        <a href="#" class="pub-link">Code</a>
-        <a href="#" class="pub-link">arXiv</a>
-    </div>
-    <div class="pub-tags">
-        <span class="pub-tag">Knowledge Graphs</span>
+        <span class="pub-tag">Interpretable AI</span>
         <span class="pub-tag">Reasoning Systems</span>
-        <span class="pub-tag">Efficiency</span>
+        <span class="pub-tag">Modular Architecture</span>
     </div>
 </div>
-
-## Technical Reports & Working Papers
-
-<div class="publication">
-    <div class="pub-header">
-        <h3>Neuro-Symbolic Methods for Explainable Healthcare AI</h3>
-        <span class="pub-status">Technical Report • 2024</span>
-    </div>
-    <p class="pub-authors">Abhishek Tiwari</p>
-    <p class="pub-abstract">A comprehensive survey of neuro-symbolic approaches in medical diagnosis systems, focusing on interpretability requirements in clinical settings and proposing a framework for regulatory-compliant AI systems.</p>
-    <div class="pub-links">
-        <a href="#" class="pub-link">PDF</a>
-    </div>
-    <div class="pub-tags">
-        <span class="pub-tag">Healthcare AI</span>
-        <span class="pub-tag">Explainability</span>
-        <span class="pub-tag">Medical AI</span>
-    </div>
-</div>
-
-<div class="publication">
-    <div class="pub-header">
-        <h3>Benchmarking Neuro-Symbolic Systems: A Comparative Analysis</h3>
-        <span class="pub-status">Working Paper • 2023</span>
-    </div>
-    <p class="pub-authors">Abhishek Tiwari</p>
-    <p class="pub-abstract">Development of a comprehensive benchmark suite for evaluating neuro-symbolic AI systems across multiple dimensions: reasoning accuracy, computational efficiency, and explainability quality.</p>
-    <div class="pub-links">
-        <a href="#" class="pub-link">PDF</a>
-        <a href="#" class="pub-link">Benchmark</a>
-    </div>
-    <div class="pub-tags">
-        <span class="pub-tag">Benchmarking</span>
-        <span class="pub-tag">Evaluation</span>
-        <span class="pub-tag">AI Systems</span>
-    </div>
-</div>
-
-## Conference Presentations & Talks
-
-<div class="presentation">
-    <div class="pres-header">
-        <h4>Real-Time Neuro-Symbolic Reasoning: Challenges and Opportunities</h4>
-        <span class="pres-venue">AI Systems Workshop • NeurIPS 2024</span>
-    </div>
-    <p class="pres-type">Invited Talk</p>
-    <div class="pres-links">
-        <a href="#" class="pres-link">Slides</a>
-        <a href="#" class="pres-link">Video</a>
-    </div>
-</div>
-
-<div class="presentation">
-    <div class="pres-header">
-        <h4>Bridging Neural and Symbolic AI for High-Stakes Applications</h4>
-        <span class="pres-venue">Neuro-Symbolic AI Summit • 2023</span>
-    </div>
-    <p class="pres-type">Research Presentation</p>
-    <div class="pres-links">
-        <a href="#" class="pres-link">Slides</a>
-    </div>
-</div>
-
-## Publication Philosophy
-
-I prioritize research that combines **theoretical rigor** with **practical impact**. My publication strategy focuses on:
-
-- **Open Science**: Releasing code and models alongside papers
-- **Reproducibility**: Detailed methodologies and experimental setups
-- **Real-World Relevance**: Applications in domains where AI transparency matters
-- **Interdisciplinary Approach**: Bridging computer science with domain expertise
-
-## Citation Metrics
-
-*Formal citation metrics will be updated as publications undergo peer review and appear in conference proceedings.*
 
 ## Manuscripts in Preparation
 
-- **"Scalable Neuro-Symbolic Inference for Large Knowledge Graphs"** - Target: ICML 2025
-- **"Verifiable AI: Formal Methods meets Neuro-Symbolic Systems"** - Target: JAIR
-- **"Clinical Decision Support with Explainable Neuro-Symbolic Models"** - Target: Nature Medicine
+<div class="manuscripts-section">
+    <div class="manuscript-item">
+        <strong>Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework</strong><br>
+        <span class="manuscript-target">Target: Quantitative Finance Journal</span>
+    </div>
+    <div class="manuscript-item">
+        <strong>Multi-Regime Climate-Financial Risk Transmission Engine</strong><br>
+        <span class="manuscript-target">Target: Climate Risk Journal</span>
+    </div>
+</div>
 
 ---
 
-*For early access to preprints or collaboration inquiries, please [contact me](/contact).*
+*For collaboration inquiries or early access to preprints, please <a href="mailto:abhishekt282001@gmail.com">contact me</a>.*
 
 <style>
 .publication {
@@ -229,104 +145,6 @@ I prioritize research that combines **theoretical rigor** with **practical impac
     font-size: 0.8rem;
 }
 
-.presentation {
-    border-left: 3px solid #666;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    background: #f8f9fa;
-}
-
-.pres-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.pres-header h4 {
-    color: #000;
-    margin: 0;
-    font-size: 1.1rem;
-    flex: 1;
-    min-width: 250px;
-}
-
-.pres-venue {
-    color: #666;
-    font-style: italic;
-    white-space: nowrap;
-}
-
-.pres-type {
-    color: #888;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-}
-
-.pres-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.pres-link {
-    color: #000;
-    text-decoration: none;
-    font-size: 0.9rem;
-    border-bottom: 1px solid #000;
-}
-
-.pres-link:hover {
-    border-bottom-color: transparent;
-}
-
-.philosophy-section {
-    background: #000;
-    color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    margin: 3rem 0;
-}
-
-.philosophy-section h3 {
-    color: white;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.philosophy-list {
-    list-style: none;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.philosophy-list li {
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #333;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.philosophy-list li:before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: #fff;
-}
-
-.philosophy-list li:last-child {
-    border-bottom: none;
-}
-
-.citation-metrics {
-    text-align: center;
-    padding: 2rem;
-    background: #f8f9fa;
-    border-radius: 8px;
-    margin: 2rem 0;
-}
-
 .manuscripts-section {
     background: #fff8e1;
     padding: 2rem;
@@ -369,15 +187,5 @@ I prioritize research that combines **theoretical rigor** with **practical impac
     .pub-status {
         align-self: flex-start;
     }
-    
-    .pres-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    .pres-header h4 {
-        min-width: auto;
-    }
 }
 </style>
-END
