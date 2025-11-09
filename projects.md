@@ -6,7 +6,9 @@ permalink: /projects/
 
 # Projects
 
-Hands-on implementations and research prototypes exploring computational finance and AI systems. Each project combines theoretical research with practical implementation.
+# Research Implementation
+
+Published research projects with full codebase availability. Each implementation demonstrates novel methodologies in neuro-symbolic reasoning, financial modeling, and interpretable AI systems.
 
 ## Featured Projects
 
