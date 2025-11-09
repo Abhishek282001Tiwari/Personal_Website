@@ -19,40 +19,21 @@ title: Abhishek Tiwari
             <p>With a background in Business Analytics, I ground my research in real-world applications where trust, reliability, and explainability are critical. I am currently seeking PhD positions starting Fall 2026 to further develop interpretable AI systems.</p>
         </div>
 
-        <!-- Info Cards -->
-        <div class="info-cards">
-            <div class="info-card">
-                <h3>Research Interests</h3>
-                <ul>
-                    <li>Neuro-Symbolic AI</li>
-                    <li>Explainable AI (XAI)</li>
-                    <li>Trustworthy Machine Learning</li>
-                    <li>Automated Reasoning</li>
-                    <li>AI for Decision-Making</li>
-                </ul>
-            </div>
-            
-            <div class="info-card">
-                <h3>Education</h3>
-                <ul>
-                    <li>Bachelor of Business Administration (BBA) in Business Analytics</li>
-                </ul>
-            </div>
-            
-            <div class="info-card">
-                <h3>Contact</h3>
-                <div class="contact-links">
-                    <a href="mailto:abhishekt282001@gmail.com" class="contact-link">Email</a>
-                    <a href="https://github.com/Abhishek282001Tiwari" target="_blank" class="contact-link">GitHub</a>
-                    <a href="[Your LinkedIn URL]" target="_blank" class="contact-link">LinkedIn</a>
-                </div>
+        <!-- Research Interests Only -->
+        <div class="interests-section">
+            <h3>Research Interests</h3>
+            <div class="interests-grid">
+                <span class="interest-tag">Neuro-Symbolic AI</span>
+                <span class="interest-tag">Explainable AI (XAI)</span>
+                <span class="interest-tag">Trustworthy Machine Learning</span>
+                <span class="interest-tag">Automated Reasoning</span>
+                <span class="interest-tag">AI for Decision-Making</span>
             </div>
         </div>
     </section>
 
     <!-- Quick Navigation -->
     <section class="nav-section">
-        <h2>Explore My Work</h2>
         <div class="nav-buttons">
             <a href="/Personal_Website/publications" class="nav-btn">Publications</a>
             <a href="/Personal_Website/projects" class="nav-btn">Projects</a>
@@ -83,6 +64,16 @@ title: Abhishek Tiwari
                     allowfullscreen>
                 </iframe>
             </div>
+        </div>
+    </section>
+
+    <!-- Contact Section at Bottom -->
+    <section class="contact-section">
+        <h3>Get in Touch</h3>
+        <div class="contact-links">
+            <a href="mailto:abhishekt282001@gmail.com" class="contact-link">Email</a>
+            <a href="https://github.com/Abhishek282001Tiwari" target="_blank" class="contact-link">GitHub</a>
+            <a href="[Your LinkedIn URL]" target="_blank" class="contact-link">LinkedIn</a>
         </div>
     </section>
 </div>
@@ -136,85 +127,34 @@ title: Abhishek Tiwari
     color: #333;
 }
 
-.info-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+.interests-section {
     margin-top: 2rem;
 }
 
-.info-card {
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    padding: 1.5rem;
-    background: #fafafa;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.info-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.info-card h3 {
-    color: #000;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    border-bottom: 2px solid #000;
-    padding-bottom: 0.5rem;
-}
-
-.info-card ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.info-card li {
-    padding: 0.3rem 0;
-    position: relative;
-    padding-left: 1.2rem;
+.interests-section h3 {
     color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
-.info-card li:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #000;
-    font-weight: bold;
-}
-
-.contact-links {
+.interests-grid {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 0.8rem;
 }
 
-.contact-link {
-    display: inline-block;
-    padding: 0.6rem 1rem;
+.interest-tag {
     background: #000;
     color: white;
-    text-decoration: none;
-    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
     font-size: 0.9rem;
-    text-align: center;
-    transition: background 0.2s;
+    font-weight: 500;
 }
 
-.contact-link:hover {
-    background: #333;
-}
-
+/* Navigation Section */
 .nav-section {
     margin-bottom: 3rem;
-    text-align: center;
-}
-
-.nav-section h2 {
-    color: #333;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
 }
 
 .nav-buttons {
@@ -225,13 +165,16 @@ title: Abhishek Tiwari
 }
 
 .nav-btn {
-    padding: 0.8rem 1.8rem;
+    padding: 0.8rem 2rem;
     background: #000;
     color: white;
     text-decoration: none;
     border-radius: 4px;
     font-size: 1rem;
     transition: background 0.2s, transform 0.2s;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
 }
 
 .nav-btn:hover {
@@ -241,7 +184,7 @@ title: Abhishek Tiwari
 
 /* CV Section */
 .cv-section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .cv-section h2 {
@@ -291,13 +234,43 @@ title: Abhishek Tiwari
     background-color: #f8f9fa;
 }
 
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.contact-section h3 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.contact-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    padding: 0.8rem 1.5rem;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.contact-link:hover {
+    background: #333;
+}
+
 @media (max-width: 768px) {
     .landing-header h1 {
         font-size: 2.2rem;
-    }
-    
-    .info-cards {
-        grid-template-columns: 1fr;
     }
     
     .nav-buttons {
@@ -306,7 +279,8 @@ title: Abhishek Tiwari
     }
     
     .nav-btn {
-        width: 200px;
+        width: 100%;
+        max-width: 250px;
     }
     
     .cv-controls {
@@ -318,6 +292,15 @@ title: Abhishek Tiwari
     
     .cv-control-btn, .cv-download-btn {
         margin: 0.2rem;
+    }
+    
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-link {
+        width: 200px;
     }
 }
 </style>
