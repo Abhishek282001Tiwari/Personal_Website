@@ -11,13 +11,13 @@ title: Abhishek Tiwari
         <p class="header-focus">Advancing Neuro-Symbolic AI & Explainable AI Systems</p>
     </header>
 
-    <!-- About Me Section -->
-    <section class="about-section">
-        <div class="about-content">
-            <p>I am a passionate researcher focused on advancing Artificial Intelligence through <strong>Neuro-Symbolic AI</strong>. My work bridges the gap between neural networks' pattern recognition capabilities and symbolic AI's logical reasoning, creating AI systems that are both powerful and interpretable.</p>
-            
-            <p>With a background in Business Analytics, I ground my research in real-world applications where trust, reliability, and explainability are critical. I am currently seeking PhD positions starting Fall 2026 to further develop interpretable AI systems.</p>
-        </div>
+   <!-- About Me Section -->
+<section class="about-section">
+    <div class="about-content">
+        <p>I am advancing the frontier of Artificial Intelligence through <strong>Neuro-Symbolic AI</strong>—developing systems that combine the pattern recognition power of neural networks with the explicit reasoning of symbolic AI. My research creates AI that doesn't just predict, but understands and explains its decisions.</p>
+        
+        <p>My background in Business Analytics provides a unique perspective, grounding theoretical advances in real-world applications where trust and reliability are paramount. I am seeking PhD positions starting Fall 2026 to pioneer the next generation of interpretable, trustworthy AI systems.</p>
+    </div>
 
         <!-- Research Interests Only -->
         <div class="interests-section">
