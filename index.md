@@ -3,25 +3,25 @@ layout: default
 title: Abhishek Tiwari
 ---
 
-<div class="simple-container">
+<div class="landing-container">
     <!-- Header Section -->
-    <header class="simple-header">
+    <header class="landing-header">
         <h1>Abhishek Tiwari</h1>
         <p class="header-subtitle">PhD Applicant in Computer Science</p>
-        <p class="header-focus">Focus: Neuro-Symbolic AI & Explainable AI</p>
+        <p class="header-focus">Advancing Neuro-Symbolic AI & Explainable AI Systems</p>
     </header>
 
     <!-- About Me Section -->
     <section class="about-section">
-        <h2>About Me</h2>
-        <p>I am a passionate researcher on a path to advance the field of Artificial Intelligence, with a specific focus on <strong>Neuro-Symbolic AI</strong>. My goal is to develop AI systems that are not only powerful but also interpretable, reliable, and capable of human-like reasoning.</p>
-        
-        <p>My academic background in Business Analytics provides me with a unique perspective, grounding my research in real-world problems where trust and explainability are critical. I am particularly interested in bridging the gap between the robust pattern recognition of deep learning and the transparent, logical reasoning of symbolic AI.</p>
-        
-        <p>I am currently seeking a PhD position starting in Fall 2026 to deepen my research in this area.</p>
-        
-        <div class="details-grid">
-            <div class="detail-column">
+        <div class="about-content">
+            <p>I am a passionate researcher focused on advancing Artificial Intelligence through <strong>Neuro-Symbolic AI</strong>. My work bridges the gap between neural networks' pattern recognition capabilities and symbolic AI's logical reasoning, creating AI systems that are both powerful and interpretable.</p>
+            
+            <p>With a background in Business Analytics, I ground my research in real-world applications where trust, reliability, and explainability are critical. I am currently seeking PhD positions starting Fall 2026 to further develop interpretable AI systems.</p>
+        </div>
+
+        <!-- Info Cards -->
+        <div class="info-cards">
+            <div class="info-card">
                 <h3>Research Interests</h3>
                 <ul>
                     <li>Neuro-Symbolic AI</li>
@@ -32,43 +32,45 @@ title: Abhishek Tiwari
                 </ul>
             </div>
             
-            <div class="detail-column">
+            <div class="info-card">
                 <h3>Education</h3>
                 <ul>
                     <li>Bachelor of Business Administration (BBA) in Business Analytics</li>
                 </ul>
-                
+            </div>
+            
+            <div class="info-card">
                 <h3>Contact</h3>
-                <ul class="contact-list">
-                    <li>Email: <a href="mailto:abhishekt282001@gmail.com">abhishekt282001@gmail.com</a></li>
-                    <li>GitHub: <a href="https://github.com/Abhishek282001Tiwari" target="_blank">Abhishek282001Tiwari</a></li>
-                    <li>LinkedIn: <a href="[Your LinkedIn URL]" target="_blank">[Your LinkedIn]</a></li>
-                </ul>
+                <div class="contact-links">
+                    <a href="mailto:abhishekt282001@gmail.com" class="contact-link">Email</a>
+                    <a href="https://github.com/Abhishek282001Tiwari" target="_blank" class="contact-link">GitHub</a>
+                    <a href="[Your LinkedIn URL]" target="_blank" class="contact-link">LinkedIn</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Quick Links -->
-    <section class="links-section">
+    <!-- Quick Navigation -->
+    <section class="nav-section">
         <h2>Explore My Work</h2>
-        <div class="link-buttons">
-            <a href="/Personal_Website/publications" class="link-btn">📄 Publications</a>
-            <a href="/Personal_Website/projects" class="link-btn">💻 Projects</a>
-            <a href="/Personal_Website/research" class="link-btn">🔬 Research</a>
+        <div class="nav-buttons">
+            <a href="/Personal_Website/publications" class="nav-btn">Publications</a>
+            <a href="/Personal_Website/projects" class="nav-btn">Projects</a>
+            <a href="/Personal_Website/research" class="nav-btn">Research</a>
         </div>
     </section>
 
-    <!-- CV Section (Keep exactly as you have it) -->
+    <!-- CV Section -->
     <section class="cv-section">
         <h2>Curriculum Vitae</h2>
         <p>View my professional background, experience, and skills. The CV is typeset in LaTeX for optimal readability.</p>
         
         <div class="cv-preview">
             <div class="cv-controls">
-                <button onclick="zoomInCV()" class="cv-btn">Zoom In</button>
-                <button onclick="zoomOutCV()" class="cv-btn">Zoom Out</button>
-                <button onclick="resetZoomCV()" class="cv-btn">Reset Zoom</button>
-                <a href="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf" download class="cv-btn download-btn">Download PDF</a>
+                <button onclick="zoomInCV()" class="cv-control-btn">Zoom In</button>
+                <button onclick="zoomOutCV()" class="cv-control-btn">Zoom Out</button>
+                <button onclick="resetZoomCV()" class="cv-control-btn">Reset Zoom</button>
+                <a href="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf" download class="cv-download-btn">Download PDF</a>
             </div>
             
             <div class="pdf-viewer">
@@ -86,34 +88,36 @@ title: Abhishek Tiwari
 </div>
 
 <style>
-.simple-container {
-    max-width: 800px;
+.landing-container {
+    max-width: 900px;
     margin: 0 auto;
     padding: 2rem 1rem;
     line-height: 1.6;
 }
 
-.simple-header {
+.landing-header {
     text-align: center;
     margin-bottom: 3rem;
-    border-bottom: 2px solid #f0f0f0;
     padding-bottom: 2rem;
+    border-bottom: 2px solid #f0f0f0;
 }
 
-.simple-header h1 {
-    font-size: 2.5rem;
+.landing-header h1 {
+    font-size: 2.8rem;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #000;
+    font-weight: 700;
 }
 
 .header-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #666;
     margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 
 .header-focus {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #888;
     font-style: italic;
 }
@@ -122,82 +126,127 @@ title: Abhishek Tiwari
     margin-bottom: 3rem;
 }
 
-.about-section h2 {
-    color: #333;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
+.about-content {
+    margin-bottom: 2.5rem;
 }
 
-.details-grid {
+.about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    color: #333;
+}
+
+.info-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
     margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
-    .details-grid {
-        grid-template-columns: 1fr;
-    }
+.info-card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: #fafafa;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.detail-column h3 {
-    color: #444;
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.detail-column ul {
+.info-card h3 {
+    color: #000;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.info-card ul {
     list-style: none;
     padding-left: 0;
 }
 
-.detail-column li {
-    margin-bottom: 0.3rem;
-    padding-left: 0;
+.info-card li {
+    padding: 0.3rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+    color: #333;
 }
 
-.contact-list a {
-    color: #0066cc;
+.info-card li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    background: #000;
+    color: white;
     text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background 0.2s;
 }
 
-.contact-list a:hover {
-    text-decoration: underline;
+.contact-link:hover {
+    background: #333;
 }
 
-.links-section {
+.nav-section {
     margin-bottom: 3rem;
     text-align: center;
 }
 
-.link-buttons {
+.nav-section h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.nav-buttons {
     display: flex;
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.link-btn {
-    padding: 0.8rem 1.5rem;
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
+.nav-btn {
+    padding: 0.8rem 1.8rem;
+    background: #000;
+    color: white;
     text-decoration: none;
-    color: #333;
-    transition: all 0.2s ease;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background 0.2s, transform 0.2s;
 }
 
-.link-btn:hover {
-    background-color: #e9ecef;
-    border-color: #adb5bd;
-    transform: translateY(-1px);
+.nav-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
 }
 
-/* Keep your existing CV section styles */
+/* CV Section */
 .cv-section {
     margin-bottom: 2rem;
+}
+
+.cv-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .cv-controls {
@@ -205,41 +254,75 @@ title: Abhishek Tiwari
     text-align: center;
 }
 
-.cv-btn {
-    padding: 0.5rem 1rem;
-    margin: 0 0.2rem;
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.cv-btn:hover {
-    background-color: #e9ecef;
-}
-
-.download-btn {
-    background-color: #007bff;
+.cv-control-btn {
+    padding: 0.6rem 1.2rem;
+    margin: 0 0.3rem;
+    background: #000;
     color: white;
-    border-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
 }
 
-.download-btn:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+.cv-control-btn:hover {
+    background: #333;
+}
+
+.cv-download-btn {
+    padding: 0.6rem 1.2rem;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.cv-download-btn:hover {
+    background: #333;
 }
 
 .pdf-viewer {
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
     overflow: hidden;
     background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .landing-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .info-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-btn {
+        width: 200px;
+    }
+    
+    .cv-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    
+    .cv-control-btn, .cv-download-btn {
+        margin: 0.2rem;
+    }
 }
 </style>
 
 <script>
-// Your existing CV zoom functions
 let currentZoomCV = 1;
 const zoomStepCV = 0.1;
 const minZoomCV = 0.5;
