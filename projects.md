@@ -14,6 +14,44 @@ Published research projects with full codebase availability. Each implementation
 
 <div class="project featured">
     <div class="project-header">
+        <h3>Safe Reinforcement Learning for Soft Robotics</h3>
+        <span class="project-status">Research Implementation</span>
+    </div>
+    <div class="project-meta">
+        <span class="project-tech">Python • PyTorch • Reinforcement Learning • Robotics</span>
+        <span class="project-date">2024</span>
+    </div>
+    <p class="project-description">
+        A comprehensive research project implementing safe reinforcement learning algorithms for robust control of soft robots. Addresses the critical challenge of developing control policies that can handle complex, nonlinear dynamics of soft robotic systems while maintaining strict safety constraints.
+    </p>
+    <div class="project-features">
+        <h4>Research Contributions:</h4>
+        <ul>
+            <li>Safe PPO algorithm with constrained policy optimization for soft robot control</li>
+            <li>Real-time safety monitoring with comprehensive constraint violation detection</li>
+            <li>Uncertainty quantification using Monte Carlo dropout and ensemble methods</li>
+            <li>Multi-robot validation across tentacle, gripper, and locomotion configurations</li>
+            <li>95% safety compliance with zero catastrophic failures in final evaluation</li>
+        </ul>
+    </div>
+    <div class="project-results">
+        <h4>Technical Implementation:</h4>
+        <ul>
+            <li>Physics-based simulation using PyBullet for high-fidelity soft body dynamics</li>
+            <li>Dual value functions for separate estimation of reward and cost values</li>
+            <li>Domain randomization for improved generalization and robustness</li>
+            <li>Real-time control at 50Hz with safety monitoring and emergency mechanisms</li>
+            <li>40% robustness improvement compared to standard reinforcement learning</li>
+        </ul>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/Abhishek282001Tiwari/Learning_Robust_Control_Policies_for_Soft_Robots_using_Safe_Reinforcement_Learning" class="project-link">View Code</a>
+        <a href="https://github.com/Abhishek282001Tiwari/Learning_Robust_Control_Policies_for_Soft_Robots_using_Safe_Reinforcement_Learning/blob/main/README.md" class="project-link">Documentation</a>
+    </div>
+</div>
+
+<div class="project featured">
+    <div class="project-header">
         <h3>Multi-Regime Climate-Financial Risk Transmission Engine</h3>
         <span class="project-status">Research Project Complete</span>
     </div>
