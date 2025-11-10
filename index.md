@@ -35,9 +35,9 @@ title: Abhishek Tiwari
     <!-- Quick Navigation -->
     <section class="nav-section">
         <div class="nav-buttons">
-            <a href="/Personal_Website/publications" class="nav-btn">Publications</a>
-            <a href="/Personal_Website/projects" class="nav-btn">Projects</a>
-            <a href="/Personal_Website/research" class="nav-btn">Research</a>
+            <a href="/Abhishek.Tiwari/publications" class="nav-btn">Publications</a>
+            <a href="/Abhishek.Tiwari/projects" class="nav-btn">Projects</a>
+            <a href="/Abhishek.Tiwari/research" class="nav-btn">Research</a>
         </div>
     </section>
 
@@ -51,13 +51,13 @@ title: Abhishek Tiwari
                 <button onclick="zoomInCV()" class="cv-control-btn">Zoom In</button>
                 <button onclick="zoomOutCV()" class="cv-control-btn">Zoom Out</button>
                 <button onclick="resetZoomCV()" class="cv-control-btn">Reset Zoom</button>
-                <a href="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf" download class="cv-download-btn">Download PDF</a>
+                <a href="https://abhishek282001tiwari.github.io/Abhishek.Tiwari/assets/cv/cv.pdf" download class="cv-download-btn">Download PDF</a>
             </div>
             
             <div class="pdf-viewer">
                 <iframe 
                     id="cv-pdf"
-                    src="https://abhishek282001tiwari.github.io/Personal_Website/assets/cv/cv.pdf#view=FitH"
+                    src="https://abhishek282001tiwari.github.io/Abhishek.Tiwari/assets/cv/cv.pdf#view=FitH"
                     width="100%" 
                     height="500"
                     frameborder="0"
