@@ -29,38 +29,45 @@ Exploring neurosymbolic AI, financial engineering, and geopolitical tech. Writin
         </div>
     </div>
     <div class="post-links">
-        <a href="/blog/business-analytics-to-ai-core" class="post-link">Read Full Article</a>
+        <a href="https://medium.com/@abhishekt282001/from-business-analytics-to-ais-core-my-journey-into-the-promise-of-neuro-symbolic-ai-7f6d2df9102b" target="_blank" class="post-link">Read on Medium</a>
         <a href="https://x.com/AbhishekQuant_" target="_blank" class="post-link">Follow on X</a>
     </div>
 </div>
 
-## Writing Philosophy
-
-My blog focuses on **clear, accessible technical writing** that bridges research and practice:
-
-- **Research Insights**: Breaking down complex AI concepts into understandable explanations
-- **Practical Applications**: Connecting theoretical advances to real-world impact in finance, geopolitics, and technology
-- **Open Discussion**: Encouraging dialogue around AI ethics, interpretability, and future directions
-- **Learning Journey**: Sharing lessons from my unconventional path into AI research
-
-## Topics I Write About
+## Upcoming Topics
 
 <div class="topics-grid">
     <div class="topic-card">
-        <h4>Neuro-Symbolic AI</h4>
-        <p>Architectures, implementations, and theoretical foundations of hybrid AI systems</p>
+        <h4>The Quant's Guide to Neuro-Symbolic AI</h4>
+        <p>How symbolic reasoning can revolutionize algorithmic trading beyond pure statistical arbitrage</p>
     </div>
     <div class="topic-card">
-        <h4>Financial Engineering</h4>
-        <p>AI applications in trading, risk management, and quantitative finance</p>
+        <h4>AI Arms Race: Compute vs. Cognition</h4>
+        <p>Why the next breakthrough won't come from bigger models, but smarter reasoning architectures</p>
     </div>
     <div class="topic-card">
-        <h4>Geopolitical Tech</h4>
-        <p>The intersection of technology, global systems, and international relations</p>
+        <h4>Geopolitics in the Age of AI</h4>
+        <p>How neuro-symbolic systems could model complex international relations and predict global shifts</p>
     </div>
     <div class="topic-card">
-        <h4>High-Frequency Compute</h4>
-        <p>Computational systems for trading, reasoning, and real-time intelligence</p>
+        <h4>High-Frequency Reasoning</h4>
+        <p>Building real-time symbolic inference engines for trading, defense, and emergency response systems</p>
+    </div>
+    <div class="topic-card">
+        <h4>Symbolic AI for Market Microstructure</h4>
+        <p>Applying logical reasoning to order book dynamics and market maker strategies</p>
+    </div>
+    <div class="topic-card">
+        <h4>Verifiable Trading Algorithms</h4>
+        <p>Using formal methods to prove trading strategy correctness and regulatory compliance</p>
+    </div>
+    <div class="topic-card">
+        <h4>AI and Sovereign Risk</h4>
+        <p>Modeling country risk using symbolic knowledge graphs and neural pattern recognition</p>
+    </div>
+    <div class="topic-card">
+        <h4>The Physics of AI Inference</h4>
+        <p>Hardware-aware symbolic reasoning for ultra-low latency applications</p>
     </div>
 </div>
 
