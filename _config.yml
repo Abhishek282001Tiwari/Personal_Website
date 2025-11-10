@@ -1,8 +1,8 @@
 title: "Abhishek Tiwari"
 email: "abhishekt282001@gmail.com"
 description: "Neuro-Symbolic AI Research"
-baseurl: "/Personal_Website"
-url: "https://abhishek282001tiwari.github.io"
+baseurl: "/Abhishek.Tiwari"  # Changed from "/Personal_Website"
+url: "https://abhishek282001tiwari.github.io/Abhishek.Tiwari"  # Updated path
 
 theme: minima
 plugins:
