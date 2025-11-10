@@ -13,13 +13,13 @@ Exploring neurosymbolic AI, financial engineering, and geopolitical tech. Writin
 <div class="blog-post featured">
     <div class="post-header">
         <h3>From Business Analytics to AI's Core: My Journey Into the Promise of Neuro-Symbolic AI</h3>
-        <span class="post-date">February 2025</span>
+        <span class="post-date">November 2025</span>
     </div>
     <p class="post-excerpt">
         My journey into artificial intelligence didn't start in a computer lab. It started, of all places, on a Joe Rogan podcast with Naval Ravikant. As someone from a business analytics background, with no formal training in computer science, I've always been drawn to the way Naval reframes complex issues...
     </p>
     <div class="post-meta">
-        <span class="read-time">15 min read</span>
+        <span class="read-time">8 min read</span>
         <div class="post-tags">
             <span class="post-tag">Neuro-Symbolic AI</span>
             <span class="post-tag">AI Research</span>
