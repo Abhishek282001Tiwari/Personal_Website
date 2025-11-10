@@ -14,7 +14,7 @@ title: Abhishek Tiwari
    <!-- About Me Section -->
 <section class="about-section">
     <div class="about-content">
-        <p>I am advancing the frontier of Artificial Intelligence through <strong>Neuro-Symbolic AI</strong>—developing systems that combine the pattern recognition power of neural networks with the explicit reasoning of symbolic AI. My research creates AI that doesn't just predict, but understands and explains its decisions.</p>
+        <p>I am advancing the frontier of Artificial Intelligence through <strong>Neuro-Symbolic AI</strong> developing systems that combine the pattern recognition power of neural networks with the explicit reasoning of symbolic AI. My research creates AI that doesn't just predict, but understands and explains its decisions.</p>
         
         <p>My background in Business Analytics provides a unique perspective, grounding theoretical advances in real-world applications where trust and reliability are paramount. I am seeking PhD positions starting Fall 2026 to pioneer the next generation of interpretable, trustworthy AI systems.</p>
     </div>
