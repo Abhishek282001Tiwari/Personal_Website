@@ -6,70 +6,31 @@ permalink: /blog/
 
 # Blog
 
-Thoughts, insights, and technical explorations in Neuro-Symbolic AI, research methodologies, and the future of interpretable artificial intelligence.
+Exploring neurosymbolic AI, financial engineering, and geopolitical tech. Writing about intelligent systems, HFT, and the future of computational reasoning.
 
 ## Latest Posts
 
 <div class="blog-post featured">
     <div class="post-header">
-        <h3>The Case for Modular Neuro-Symbolic Architectures</h3>
-        <span class="post-date">December 2024</span>
+        <h3>From Business Analytics to AI's Core: My Journey Into the Promise of Neuro-Symbolic AI</h3>
+        <span class="post-date">February 2025</span>
     </div>
     <p class="post-excerpt">
-        Why separating perception, reasoning, and explanation modules leads to more transparent and maintainable AI systems. Exploring the design principles behind NeuroLogicX and how modularity enables both performance and interpretability.
+        My journey into artificial intelligence didn't start in a computer lab. It started, of all places, on a Joe Rogan podcast with Naval Ravikant. As someone from a business analytics background, with no formal training in computer science, I've always been drawn to the way Naval reframes complex issues...
     </p>
     <div class="post-meta">
-        <span class="read-time">8 min read</span>
+        <span class="read-time">15 min read</span>
         <div class="post-tags">
             <span class="post-tag">Neuro-Symbolic AI</span>
-            <span class="post-tag">System Design</span>
-            <span class="post-tag">Interpretability</span>
-        </div>
-    </div>
-    <div class="post-links">
-        <a href="/blog/modular-neurosymbolic-architectures" class="post-link">Read More</a>
-    </div>
-</div>
-
-<div class="blog-post">
-    <div class="post-header">
-        <h3>From Business Analytics to AI Research: An Unconventional Path</h3>
-        <span class="post-date">November 2024</span>
-    </div>
-    <p class="post-excerpt">
-        How a background in business analytics provides unique perspectives on AI research. Bridging the gap between theoretical machine learning and practical, trustworthy AI deployment in real-world scenarios.
-    </p>
-    <div class="post-meta">
-        <span class="read-time">6 min read</span>
-        <div class="post-tags">
-            <span class="post-tag">Career</span>
             <span class="post-tag">AI Research</span>
-            <span class="post-tag">Interdisciplinary</span>
+            <span class="post-tag">Career Journey</span>
+            <span class="post-tag">Financial AI</span>
+            <span class="post-tag">Geopolitics</span>
         </div>
     </div>
     <div class="post-links">
-        <a href="/blog/business-analytics-to-ai-research" class="post-link">Read More</a>
-    </div>
-</div>
-
-<div class="blog-post">
-    <div class="post-header">
-        <h3>Benchmarking Reasoning Systems: Beyond Accuracy Metrics</h3>
-        <span class="post-date">October 2024</span>
-    </div>
-    <p class="post-excerpt">
-        Why we need better evaluation frameworks for neuro-symbolic systems. Discussing metrics for interpretability, computational efficiency, and robustness in addition to traditional accuracy measures.
-    </p>
-    <div class="post-meta">
-        <span class="read-time">10 min read</span>
-        <div class="post-tags">
-            <span class="post-tag">Evaluation</span>
-            <span class="post-tag">Benchmarking</span>
-            <span class="post-tag">Research Methods</span>
-        </div>
-    </div>
-    <div class="post-links">
-        <a href="/blog/benchmarking-reasoning-systems" class="post-link">Read More</a>
+        <a href="/blog/business-analytics-to-ai-core" class="post-link">Read Full Article</a>
+        <a href="https://x.com/AbhishekQuant_" target="_blank" class="post-link">Follow on X</a>
     </div>
 </div>
 
@@ -78,9 +39,9 @@ Thoughts, insights, and technical explorations in Neuro-Symbolic AI, research me
 My blog focuses on **clear, accessible technical writing** that bridges research and practice:
 
 - **Research Insights**: Breaking down complex AI concepts into understandable explanations
-- **Practical Applications**: Connecting theoretical advances to real-world impact
+- **Practical Applications**: Connecting theoretical advances to real-world impact in finance, geopolitics, and technology
 - **Open Discussion**: Encouraging dialogue around AI ethics, interpretability, and future directions
-- **Learning Journey**: Sharing lessons from my research and academic path
+- **Learning Journey**: Sharing lessons from my unconventional path into AI research
 
 ## Topics I Write About
 
@@ -90,22 +51,22 @@ My blog focuses on **clear, accessible technical writing** that bridges research
         <p>Architectures, implementations, and theoretical foundations of hybrid AI systems</p>
     </div>
     <div class="topic-card">
-        <h4>Research Methods</h4>
-        <p>Approaches to experimental design, evaluation, and reproducible AI research</p>
+        <h4>Financial Engineering</h4>
+        <p>AI applications in trading, risk management, and quantitative finance</p>
     </div>
     <div class="topic-card">
-        <h4>AI Interpretability</h4>
-        <p>Techniques and frameworks for making AI systems transparent and trustworthy</p>
+        <h4>Geopolitical Tech</h4>
+        <p>The intersection of technology, global systems, and international relations</p>
     </div>
     <div class="topic-card">
-        <h4>Academic Journey</h4>
-        <p>Insights from transitioning to AI research and pursuing PhD opportunities</p>
+        <h4>High-Frequency Compute</h4>
+        <p>Computational systems for trading, reasoning, and real-time intelligence</p>
     </div>
 </div>
 
 ---
 
-*Interested in a specific topic or collaboration? <a href="mailto:abhishekt282001@gmail.com">Get in touch</a> to discuss.*
+*Interested in a specific topic or collaboration? <a href="mailto:abhishekt282001@gmail.com">Get in touch</a> to discuss. Follow me on <a href="https://x.com/AbhishekQuant_" target="_blank">X</a> for daily insights.*
 
 <style>
 .blog-post {
