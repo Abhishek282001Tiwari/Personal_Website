@@ -145,8 +145,7 @@
 \Huge{Abhishek Tiwari} \\[7.5pt]
 \href{https://github.com/Abhishek282001Tiwari}{\raisebox{-0.05\height}\faGithub\ GitHub} \ $|$ \ 
 \href{www.linkedin.com/in/abhishek282001}{\raisebox{-0.05\height}\faLinkedin\ Linkedin} \ $|$ \ 
-\href{mailto:abhishekt282001@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ abhishekt282001@gmail.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +91 8421960019}\\
+\href{mailto:abhishekt282001@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ abhishekt282001@gmail.com} \
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -155,12 +154,12 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-Independent Researcher in Quantitative Finance and Artificial Intelligence with expertise in market microstructure, high-frequency trading, stochastic control, and machine learning. Experienced in developing Hawkes process models, optimal execution frameworks, and simulation-based optimization engines for complex financial and aerospace systems. Strong background in reinforcement learning, Bayesian methods, and interpretable AI, with multiple working papers and preprints under review. Seeking research or applied AI/quant positions to advance robust, explainable, and high-performance computational solutions in finance and optimization.
+Researcher focused on neurosymbolic AI, with expertise in neural-symbolic integration, differentiable reasoning, and program synthesis. Combines deep learning with symbolic AI techniques for interpretable and robust reasoning systems. Proficient in Python (PyTorch, JAX), formal methods, and knowledge representation. Seeking to advance neurosymbolic research through modular reasoning architectures and verifiable AI systems.
 
 %Experience
 \section{Work Experience}
 
-\begin{joblong}{Business Intelligence Analyst, Allpay Ltd, Hereford, UK}{February 2024 -- Present}
+\begin{joblong}{Business Intelligence Analyst, Allpay Ltd, Hereford, UK}{February 2024 -- September 2025}
 \item Developed ML-driven pipelines and optimization projects for fintech/payments, generating data-driven insights.
 \item Designed and maintained interactive dashboards and visualizations to support operational and strategic functions.
 \item Applied advanced analytics and predictive modeling to improve product performance and operational efficiency.
@@ -172,11 +171,11 @@ Independent Researcher in Quantitative Finance and Artificial Intelligence with 
 \item Contributed to manuscript preparation, preprints, and academic publications in AI and interpretable modeling.
 \end{joblong}
   
-%Projects
+% Projects
 \section{Projects}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Multi-Regime Climate-Financial Risk Transmission Engine} & \hfill \href{https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine}{GitHub Link} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{Developed an econometric engine modeling climate-financial risk transmission using Hamilton’s Markov regime-switching model with climate extensions. Includes 9+ years of empirical data, interactive dashboards, and reproducible code for real-time stress testing and risk analysis.} \\
+\textbf{Neurologicx Terminal (Neurosymbolic AI)} & \hfill \href{https://github.com/Abhishek282001Tiwari/neurologicx_terminal}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developing a modular, terminal-style neurosymbolic reasoning system with Python backend and Streamlit deployment. Combines NLP parsing, symbolic program synthesis, and interpretable reasoning pipelines.} \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
@@ -186,15 +185,14 @@ Independent Researcher in Quantitative Finance and Artificial Intelligence with 
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Cross-Venue Hawkes Process Model} & \hfill \href{https://github.com/Abhishek282001Tiwari/crossvenue_hawkes}{GitHub Link} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{Designed a multivariate Hawkes process model with cross-venue graph structure for high-frequency 
-order flow prediction. Implements real-time particle filter calibration and GNN-based excitation modeling, with 
-profitability demonstrations on multi-exchange tick and order book data. \textit{(Work in Progress)}} \\
+\multicolumn{2}{@{}X@{}}{Designed a multivariate Hawkes process model with cross-venue graph structure for high-frequency order flow prediction. Implements real-time particle filter calibration and GNN-based excitation modeling, with profitability demonstrations on multi-exchange tick and order book data. \textit{(Work in Progress)}} \\
 \end{tabularx}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Neurologicx Terminal (Neurosymbolic AI)} & \hfill \href{https://github.com/Abhishek282001Tiwari/neurologicx_terminal}{GitHub Link} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{Developing a modular, terminal-style neurosymbolic reasoning system with Python backend and Streamlit deployment. Combines NLP parsing, symbolic program synthesis, and interpretable reasoning pipelines. } \\
-\end{tabularx}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }  % ← This line was missing
+\textbf{Multi-Regime Climate-Financial Risk Transmission Engine} & \hfill \href{https://github.com/Abhishek282001Tiwari/Multi_Regime_Climate_Financial_Risk_Transmission_Engine}{GitHub Link} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Developed an econometric engine modeling climate-financial risk transmission using Hamilton's Markov regime-switching model with climate extensions. Includes 9+ years of empirical data, interactive dashboards, and reproducible code for real-time stress testing and risk analysis.} \\
+\end{tabularx}  % ← This line was also missing
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
@@ -220,14 +218,14 @@ profitability demonstrations on multi-exchange tick and order book data. \textit
   \textit{A Modular Neurosymbolic Framework for General-Purpose Reasoning: Bridging Symbolic and Deep Learning for Interpretable AI}. 
   TechRxiv, July 2025. 
   \href{https://doi.org/10.36227/techrxiv.175295182.20276969/v1}{DOI link}. 
-  (Preprint, under review).
+  (Preprint, under peer-review).
   \begin{itemize}
       \item \textbf{Methodological novelty:} Introduces a modular neurosymbolic reasoning pipeline integrating symbolic program synthesis with deep learning for interpretable general-purpose reasoning.
   \end{itemize}
   
   \item Abhishek Pankaj Tiwari.  
   \textit{Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework}.  
-  Manuscript in preparation. (Working paper).  
+  Manuscript in preparation. (under peer-review).  
   \begin{itemize}
       \item \textbf{Methodological novelty:} Develops a stochastic control framework that integrates Hawkes process–based self-exciting order flow with optimal execution models, capturing endogenous market impact and feedback effects in high-frequency trading environments.
   \end{itemize}
@@ -238,19 +236,20 @@ profitability demonstrations on multi-exchange tick and order book data. \textit
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Programming & \normalsize{Python (NumPy, SciPy, PyTorch, JAX), C++ (11/14), MATLAB, Julia, CUDA, MPI, Git, kdb+/q, SQL} \\
+Programming & \normalsize{Python (PyTorch, JAX, SymPy, Logic Programming), C++ (metaprogramming), Julia (symbolic computation), CUDA (neural-symbolic acceleration), Git} \\
 \\
-Machine Learning & \normalsize{Bayesian ML, deep learning for sequential data, reinforcement learning (safe \& distributional), graph neural networks, hidden Markov models, regime detection} \\
+Neurosymbolic AI & \normalsize{Neural-symbolic integration, logical neural networks, differentiable reasoning, program synthesis, symbolic regression, constraint learning, relational learning} \\
 \\
-Stochastic Processes \& Control & \normalsize{Hawkes and point processes, stochastic calculus, stochastic differential equations, stochastic control (HJB, dynamic programming), optimal execution (Almgren–Chriss, mean-field models)} \\
+Knowledge Representation & \normalsize{First-order logic, probabilistic graphical models, knowledge graphs, semantic networks, rule-based systems, ontology engineering, temporal logic} \\
 \\
-Optimization \& Simulation & \normalsize{Simulation-based optimization, convex/non-convex optimization, robust optimization, Monte Carlo methods (variance reduction, importance sampling), PDE solvers (finite difference, Crank–Nicolson)} \\
+Machine Learning & \normalsize{Graph neural networks, transformer architectures, reinforcement learning (symbolic policies), interpretable AI, causal reasoning, few-shot learning with symbolic priors} \\
 \\
-Market Microstructure & \normalsize{Limit order book modeling, high-frequency forecasting, market impact models, statistical arbitrage, liquidity and volatility estimation, order flow prediction} 
+Formal Methods & \normalsize{Automated theorem proving, SAT/SMT solvers, formal verification of neural systems, program verification, symbolic execution, model checking} \\
+\\
+Reasoning Systems & \normalsize{Probabilistic reasoning, inductive logic programming, abductive inference, commonsense reasoning, multi-hop reasoning, neuro-symbolic program induction}
 \end{tabularx}
 
 \vfill
 \center{\footnotesize Last updated: \today}
 
 \end{document}
-
