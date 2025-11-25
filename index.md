@@ -7,27 +7,28 @@ title: Abhishek Tiwari
     <!-- Header Section -->
     <header class="landing-header">
         <h1>Abhishek Tiwari</h1>
-        <p class="header-subtitle">PhD Applicant in Computer Science</p>
-        <p class="header-focus">Advancing Neuro-Symbolic AI & Explainable AI Systems</p>
+        <p class="header-subtitle">PhD Applicant in Financial Engineering</p>
+        <p class="header-focus">Advancing Optimal Execution & Market Microstructure Research</p>
     </header>
 
    <!-- About Me Section -->
 <section class="about-section">
     <div class="about-content">
-        <p>I am advancing the frontier of Artificial Intelligence through <strong>Neuro-Symbolic AI</strong> developing systems that combine the pattern recognition power of neural networks with the explicit reasoning of symbolic AI. My research creates AI that doesn't just predict, but understands and explains its decisions.</p>
+        <p>I am advancing the frontier of quantitative finance through <strong>stochastic control and market microstructure</strong> research, developing execution frameworks that systematically incorporate self-exciting order flow dynamics. My work bridges classical execution models with modern market realities to create adaptive, cost-effective trading strategies.</p>
         
-        <p>My background in Business Analytics provides a unique perspective, grounding theoretical advances in real-world applications where trust and reliability are paramount. I am seeking PhD positions starting Fall 2026 to pioneer the next generation of interpretable, trustworthy AI systems.</p>
+        <p>My research in optimal execution under Hawkes processes provides both theoretical rigor and practical implementability, delivering economically significant improvements over industry standards. I am seeking PhD positions starting Fall 2026 to pioneer the next generation of intelligent execution algorithms.</p>
     </div>
 
         <!-- Research Interests Only -->
         <div class="interests-section">
             <h3>Research Interests</h3>
             <div class="interests-grid">
-                <span class="interest-tag">Neuro-Symbolic AI</span>
-                <span class="interest-tag">Explainable AI (XAI)</span>
-                <span class="interest-tag">Trustworthy Machine Learning</span>
-                <span class="interest-tag">Automated Reasoning</span>
-                <span class="interest-tag">AI for Decision-Making</span>
+                <span class="interest-tag">Market Microstructure</span>
+                <span class="interest-tag">Optimal Execution</span>
+                <span class="interest-tag">Stochastic Control</span>
+                <span class="interest-tag">Hawkes Processes</span>
+                <span class="interest-tag">Time Series Analysis</span>
+                <span class="interest-tag">Quantitative Finance</span>
             </div>
         </div>
     </section>
