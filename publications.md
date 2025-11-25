@@ -6,11 +6,33 @@ permalink: /publications/
 
 # Publications
 
-Peer-reviewed research papers and preprints in Neuro-Symbolic AI and related fields.
+Peer-reviewed research papers and preprints in Financial Engineering, Market Microstructure, and Stochastic Control.
 
 ## Featured Publications
 
 <div class="publication featured">
+    <div class="pub-header">
+        <h3>Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework</h3>
+        <span class="pub-status">Under Review • 2024</span>
+    </div>
+    <p class="pub-authors">Abhishek Tiwari</p>
+    <p class="pub-abstract">
+        This paper develops a comprehensive stochastic control framework for optimal execution that systematically incorporates self-exciting order flow dynamics through Hawkes processes. While classical execution models like Almgren-Chriss and Obizhaeva-Wang provide foundational insights, they fail to capture the clustered order flow patterns empirically observed in modern electronic markets. Our framework bridges this gap by embedding multivariate Hawkes processes within a transient price impact model, yielding adaptive execution strategies that respond intelligently to market microstructure conditions. Empirical analysis demonstrates economically significant and statistically robust improvements over classical benchmarks, achieving cost reductions of 7.8%-15.8% versus industry standards with superior risk management characteristics including 14.6% lower Value-at-Risk.
+    </p>
+    <div class="pub-links">
+        <a href="/assets/papers/Tiwari_Optimal_Execution_Self_Exciting_Order_Flow.pdf" class="pub-link">Preprint</a>
+        <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="pub-link">Code</a>
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DyC5124AAAAJ" class="pub-link">Google Scholar</a>
+    </div>
+    <div class="pub-tags">
+        <span class="pub-tag">Optimal Execution</span>
+        <span class="pub-tag">Hawkes Processes</span>
+        <span class="pub-tag">Stochastic Control</span>
+        <span class="pub-tag">Market Microstructure</span>
+    </div>
+</div>
+
+<div class="publication">
     <div class="pub-header">
         <h3>A Modular Neurosymbolic Framework for General-Purpose Reasoning: Bridging Symbolic and Deep Learning for Interpretable AI</h3>
         <span class="pub-status">Preprint • 2024</span>
@@ -36,12 +58,12 @@ Peer-reviewed research papers and preprints in Neuro-Symbolic AI and related fie
 
 <div class="manuscripts-section">
     <div class="manuscript-item">
-        <strong>Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework</strong><br>
-        <span class="manuscript-target">Target: Quantitative Finance Journal</span>
-    </div>
-    <div class="manuscript-item">
         <strong>Multi-Regime Climate-Financial Risk Transmission Engine</strong><br>
         <span class="manuscript-target">Target: Climate Risk Journal</span>
+    </div>
+    <div class="manuscript-item">
+        <strong>Portfolio Execution with Cross-Impact and Multivariate Hawkes Excitation</strong><br>
+        <span class="manuscript-target">Target: Mathematical Finance</span>
     </div>
 </div>
 
