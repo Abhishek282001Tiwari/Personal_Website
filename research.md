@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research Vision  # Updated
+title: Research Vision
 permalink: /research/
 ---
 
@@ -8,101 +8,146 @@ permalink: /research/
 
 <div class="project featured">
     <div class="project-header">
-        <h3>Research Focus: Neuro-Symbolic AI</h3>
+        <h3>Research Focus: Optimal Execution under Self-Exciting Order Flow</h3>
         <span class="project-status">Active Research</span>
     </div>
     
     <div class="project-meta">
-        <span class="project-tech">Artificial Intelligence • Machine Learning • Reasoning Systems</span>
+        <span class="project-tech">Stochastic Control • Market Microstructure • Hawkes Processes</span>
     </div>
     
     <p class="project-description">
-        My research focuses on bridging the gap between neural networks and symbolic AI through Neuro-Symbolic AI - creating systems that combine the learning power of neural networks with the reasoning capabilities of symbolic AI.
+        My research develops a comprehensive stochastic control framework for optimal execution that systematically incorporates self-exciting order flow dynamics through Hawkes processes, bridging the gap between classical execution models and modern market microstructure realities.
     </p>
 
     <div class="project-features">
-        <h4>The Challenge with Current AI</h4>
+        <h4>The Challenge with Classical Execution Models</h4>
         <ul>
-            <li><strong>Neural Networks</strong> excel at pattern recognition but operate as "black boxes" - they can identify a cat in a photo but cannot explain why it's a cat</li>
-            <li><strong>Symbolic AI</strong> excels at logical reasoning and can provide clear explanations, but cannot learn from data or handle uncertainty well</li>
+            <li><strong>Almgren-Chriss Framework</strong> provides foundational optimization structure but assumes independent price increments and ignores transient impact decay and clustered order flow</li>
+            <li><strong>Obizhaeva-Wang Model</strong> incorporates transient impact but fails to capture the self-exciting order flow patterns empirically observed in electronic markets</li>
+            <li><strong>Traditional Approaches</strong> cannot adapt to market microstructure conditions and clustering regimes that significantly influence execution costs</li>
         </ul>
     </div>
 
     <div class="project-results">
         <h4>Why This Matters</h4>
-        <p>Consider a self-driving car approaching an obstacle:</p>
+        <p>Consider execution in modern electronic markets:</p>
         <ul>
-            <li>A pure neural network might recognize "object ahead" but not understand the implications</li>
-            <li>A pure symbolic system knows the rules "obstacles should be avoided" but can't identify the obstacle</li>  
-            <li>A neuro-symbolic system can both <strong>recognize</strong> the obstacle and <strong>reason</strong> about the appropriate response</li>
+            <li>Classical strategies execute according to fixed schedules regardless of market conditions</li>
+            <li>During order flow clustering, market impact costs are elevated due to competition for liquidity</li>  
+            <li>An intelligent controller should accelerate execution during low-intensity windows and decelerate during high-clustering periods</li>
+            <li>My framework enables state-dependent execution that responds dynamically to realized order flow intensity</li>
         </ul>
     </div>
 </div>
 
 <div class="project featured">
     <div class="project-header">
-        <h3>Research Directions</h3>
-        <span class="project-status">Current Focus</span>
+        <h3>Research Contributions</h3>
+        <span class="project-status">Key Innovations</span>
     </div>
 
     <div class="project-features">
-        <h4>1. Neural-Symbolic Interfaces</h4>
-        <p>Developing methods to seamlessly translate between neural representations (patterns, probabilities) and symbolic representations (logic, rules).</p>
-        <p><strong>Key Question:</strong> How can we create interfaces that allow neural and symbolic components to communicate effectively while maintaining the strengths of both?</p>
+        <h4>1. Hawkes-LQ Stochastic Control Framework</h4>
+        <p>Developed a unified stochastic control framework that integrates self-exciting order flow dynamics through Hawkes processes while maintaining analytical tractability via exponential kernel specifications and Markovian representations.</p>
+        <p><strong>Theoretical Foundation:</strong> Derivation of closed-form optimal policies under exponential kernels, establishment of rigorous viability conditions, and development of interpretable policy decompositions.</p>
     </div>
 
     <div class="project-features">
-        <h4>2. Efficient Symbolic Reasoning</h4>
-        <p>Traditional symbolic reasoning can be computationally expensive. I'm exploring optimizations to make logical reasoning practical for real-time applications.</p>
-        <p><strong>Key Question:</strong> What approximations and algorithmic improvements can make symbolic reasoning fast enough for real-world deployment?</p>
+        <h4>2. Mixed-Impact-Hawkes Martingale (MIHM) Conditions</h4>
+        <p>Established rigorous viability conditions that prevent price manipulation by linking Hawkes excitation parameters to market resilience properties, extending existing no-manipulation results to settings with endogenous order flow dynamics.</p>
+        <p><strong>Practical Impact:</strong> Provides concrete calibration constraints that ensure economic coherence while exploiting clustering patterns, excluding profitable round-trip strategies.</p>
     </div>
 
     <div class="project-features">
-        <h4>3. Applications in Critical Domains</h4>
-        <p>I'm particularly interested in areas where AI explanations and reliability are essential:</p>
+        <h4>3. Comprehensive Calibration Methodology</h4>
+        <p>Developed robust estimation procedures combining maximum likelihood estimation for Hawkes processes with Wiener-Hopf techniques for propagator estimation, enforcing excitation-resilience balance and reproducing empirical regularities.</p>
         
-        <p><strong>Autonomous Systems</strong></p>
+        <p><strong>Empirical Validation:</strong></p>
         <ul>
-            <li>Robots and self-driving cars that can explain their decisions</li>
-            <li>Systems that can reason about safety constraints in real-time</li>
-        </ul>
-
-        <p><strong>High-Stakes Decision Making</strong></p>
-        <ul>
-            <li>Financial AI that can justify investment recommendations</li>  
-            <li>Medical systems that can trace diagnostic reasoning</li>
-        </ul>
-
-        <p><strong>Scientific AI</strong></p>
-        <ul>
-            <li>Systems that can formulate and test hypotheses</li>
-            <li>AI that can reason about causal relationships in complex data</li>
+            <li>Multi-exponential kernel representations achieve R² = 0.992 against non-parametric estimates</li>
+            <li>Branching ratios of 0.18-0.29 calibrated from major equity data confirm framework relevance</li>
+            <li>Cost improvements of 7.8%-15.8% versus industry standards across diverse market regimes</li>
         </ul>
     </div>
 </div>
 
 <div class="project featured">
     <div class="project-header">
-        <h3>The Big Picture</h3>
-        <span class="project-status">Research Vision</span>
+        <h3>Empirical Performance</h3>
+        <span class="project-status">Validated Results</span>
     </div>
     
     <p class="project-description">
-        As AI becomes more integrated into our lives, the ability to understand and trust AI decisions becomes crucial. Neuro-Symbolic AI provides the foundation for trustworthy, collaborative, and adaptable AI systems.
+        Extensive Monte Carlo simulations and empirical validation on equity data demonstrate economically significant and statistically robust improvements over classical benchmarks.
     </p>
 
     <div class="project-features">
-        <h4>Research Objectives</h4>
+        <h4>Key Performance Metrics</h4>
         <ul>
-            <li><strong>Trustworthy AI</strong> - Systems whose decisions can be verified and validated</li>
-            <li><strong>Collaborative AI</strong> - Systems that can work alongside humans effectively</li>  
-            <li><strong>Adaptable AI</strong> - Systems that can apply learned knowledge to new situations</li>
+            <li><strong>Cost Reduction:</strong> 7.8%-15.8% improvement versus Almgren-Chriss industry standard</li>
+            <li><strong>Risk Management:</strong> 14.6% lower Value-at-Risk and more predictable execution outcomes</li>  
+            <li><strong>Cross-Asset Robustness:</strong> 8.7%-10.5% improvements across five heterogeneous equities (AAPL, MSFT, GOOG, AMZN, TSLA)</li>
+            <li><strong>Computational Feasibility:</strong> Riccati solution times of 0.5-2.0 seconds suitable for real-time deployment</li>
         </ul>
     </div>
 
     <div class="project-results">
-        <h4>Long-term Impact</h4>
-        <p>My research aims to make this vision practical and scalable, creating AI systems that are not just powerful, but understandable and reliable - advancing the frontier of reasoning machines through neural-symbolic integration.</p>
+        <h4>Framework Advantages</h4>
+        <p>The Hawkes-LQ controller decomposes optimally into baseline, trend-following, and dynamic components, providing both mathematical rigor and economic intuition. The adaptive nature of state-feedback control naturally protects against tail events by reducing execution intensity during adverse market conditions, representing a significant advancement in execution risk management.</p>
+    </div>
+</div>
+
+<div class="project featured">
+    <div class="project-header">
+        <h3>Future Research Directions</h3>
+        <span class="project-status">Ongoing Development</span>
+    </div>
+    
+    <div class="project-features">
+        <h4>1. Multivariate Hawkes and Cross-Impact Extensions</h4>
+        <p>Extending the framework to portfolio execution contexts with cross-impact and cross-excitation effects, enabling coordinated execution across correlated assets with viability enforced through spectral constraints.</p>
+    </div>
+
+    <div class="project-features">
+        <h4>2. Asymmetric Buy/Sell Intensities and Marked Hawkes</h4>
+        <p>Modeling flow imbalance effects through asymmetric self- and cross-excitation and incorporating trade size marks to improve robustness when heavy-tailed trade sizes drive transient price deviations.</p>
+    </div>
+
+    <div class="project-features">
+        <h4>3. Endogenous Agent Feedback and Reflexive Effects</h4>
+        <p>Introducing control-to-intensity kernels to capture how strategic trades themselves excite future order flow, with analysis of feedback-stability regions and closed-form solutions in weak-feedback regimes.</p>
+    </div>
+
+    <div class="project-features">
+        <h4>4. Machine Learning Enhanced Calibration</h4>
+        <p>Training neural networks to approximate Hawkes kernels and propagator coefficients under MIHM regularization, enhancing computational efficiency while preserving no-manipulation guarantees.</p>
+    </div>
+</div>
+
+<div class="project featured">
+    <div class="project-header">
+        <h3>Research Vision</h3>
+        <span class="project-status">Long-term Impact</span>
+    </div>
+    
+    <p class="project-description">
+        As financial markets continue to evolve toward greater electronicization and fragmentation, approaches that explicitly account for the self-exciting nature of order flow will become increasingly essential for maintaining execution quality in competitive trading environments.
+    </p>
+
+    <div class="project-features">
+        <h4>Broader Implications</h4>
+        <ul>
+            <li><strong>Next-Generation Execution Algorithms:</strong> Foundation for adaptive, state-dependent strategies that leverage predictable patterns in market microstructure</li>
+            <li><strong>Risk Management Advancement:</strong> Built-in protection against tail events through intelligent timing and intensity adaptation</li>  
+            <li><strong>Cross-Asset Generalizability:</strong> Framework extensibility to foreign exchange, futures, and other electronic markets with clustered order flow</li>
+            <li><strong>Academic-Practitioner Bridge:</strong> Theoretical rigor combined with practical implementability for institutional deployment</li>
+        </ul>
+    </div>
+
+    <div class="project-results">
+        <h4>Concluding Perspective</h4>
+        <p>My research aims to transition optimal execution from static schedules to adaptive, state-dependent strategies that respond intelligently to the clustered nature of financial markets. The Hawkes-LQ framework provides both the theoretical foundation and practical methodology for this evolution, offering a path toward more intelligent, responsive, and cost-effective execution in modern electronic markets.</p>
     </div>
 </div>
 
