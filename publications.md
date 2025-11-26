@@ -20,7 +20,7 @@ Peer-reviewed research papers and preprints in Financial Engineering, Market Mic
         This paper develops a comprehensive stochastic control framework for optimal execution that systematically incorporates self-exciting order flow dynamics through Hawkes processes. While classical execution models like Almgren-Chriss and Obizhaeva-Wang provide foundational insights, they fail to capture the clustered order flow patterns empirically observed in modern electronic markets. Our framework bridges this gap by embedding multivariate Hawkes processes within a transient price impact model, yielding adaptive execution strategies that respond intelligently to market microstructure conditions. Empirical analysis demonstrates economically significant and statistically robust improvements over classical benchmarks, achieving cost reductions of 7.8%-15.8% versus industry standards with superior risk management characteristics including 14.6% lower Value-at-Risk.
     </p>
     <div class="pub-links">
-        <a href="/assets/papers/Tiwari_Optimal_Execution_Self_Exciting_Order_Flow.pdf" class="pub-link">Preprint</a>
+        <a href="https://doi.org/10.36227/techrxiv.176412729.90497182/v1" class="pub-link">Preprint</a>
         <a href="https://github.com/Abhishek282001Tiwari/optimal-exec-hawkes" class="pub-link">Code</a>
         <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DyC5124AAAAJ" class="pub-link">Google Scholar</a>
     </div>
@@ -42,7 +42,7 @@ Peer-reviewed research papers and preprints in Financial Engineering, Market Mic
         Modern AI systems excel at perception tasks yet continue to struggle with general-purpose reasoning and interpretability. We present NeuroLogicX, a modular neurosymbolic framework that demonstrates the potential for interpretable AI through its design, combining symbolic logic with deep learning components. Unlike task-specific hybrids, NeuroLogicX cleanly separates perception, reasoning, and explanation into independent modules, each connected via transparent interfaces. Our experimental evaluation on bAbI reasoning tasks shows that NeuroLogicX achieves competitive performance (94.2% accuracy) while maintaining complete reasoning transparency, outperforming pure neural baselines (87.3% accuracy) and rule-based systems (91.1% accuracy) with statistical significance (p<0.001).
     </p>
     <div class="pub-links">
-        <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="pub-link">Paper</a>
+        <a href="https://doi.org/10.36227/techrxiv.175295182.20276969/v1" class="pub-link">Preprint</a>
         <a href="https://github.com/Abhishek282001Tiwari/neurologicx_terminal" class="pub-link">Code</a>
         <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=DyC5124AAAAJ" class="pub-link">Google Scholar</a>
     </div>
