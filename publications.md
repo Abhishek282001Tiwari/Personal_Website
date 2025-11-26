@@ -13,7 +13,7 @@ Peer-reviewed research papers and preprints in Financial Engineering, Market Mic
 <div class="publication featured">
     <div class="pub-header">
         <h3>Optimal Execution under Self-Exciting Order Flow: A Stochastic Control Framework</h3>
-        <span class="pub-status">Under Review • 2024</span>
+        <span class="pub-status">Under Peer Review • 2025</span>
     </div>
     <p class="pub-authors">Abhishek Tiwari</p>
     <p class="pub-abstract">
@@ -35,7 +35,7 @@ Peer-reviewed research papers and preprints in Financial Engineering, Market Mic
 <div class="publication">
     <div class="pub-header">
         <h3>A Modular Neurosymbolic Framework for General-Purpose Reasoning: Bridging Symbolic and Deep Learning for Interpretable AI</h3>
-        <span class="pub-status">Preprint • 2024</span>
+        <span class="pub-status">Preprint • 2025</span>
     </div>
     <p class="pub-authors">Abhishek Tiwari</p>
     <p class="pub-abstract">
